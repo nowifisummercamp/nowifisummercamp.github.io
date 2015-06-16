@@ -1,0 +1,24 @@
+person:
+  - name: Céline
+    age: 36 ans
+    town: Paris
+    picture: celine.jpg
+    message: "Superbe surprise que ce séjour. J’en suis revenue ressourcée, reposée et j’ai considérablement réduit ma dépendance à mon téléphone."
+
+  - name: Nordine
+    age: 24 ans
+    town: Lille
+    picture: nordine.jpg
+    message: "15 jours en pleine nature qui ont redonné un peu de sens à ma vie, loin du tumulte du travail et m’ont permis de faire de belles rencontres."
+
+  - name: Benjamin
+    age: 13 ans
+    town: Strasbourg
+    picture: benjamin.jpg
+    message: "Je ne pensais pas arriver à tenir un moins loin de ma console et pourtant, si j’avais pû rester un mois de plus, je l’aurai fait. Vivement l’année prochaine."
+
+  - name: Aurélie
+    age: 19 ans
+    town: Lyon
+    picture: aurélie.jpg
+    message: "Un séjour magnifique où je me suis découvert une véritable passion pour l’équitation et à la vie au grand air. J’espère pouvoir revenir rapidement."

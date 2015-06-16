@@ -1,0 +1,22 @@
+site:
+  title: No Wifi Summercamp, camp de vacances dans les Pyrénées Ariégeoises
+  description: "Nous sommes un camp de vancances en pleine nature qui privilègie un retour aux sources en éloignant les nouvelles technologies le temps d'un séjour."
+  url: "http://nowifisummercamp.github.io"
+
+author:
+  name: No Wifi Summercamp
+  address: Chemin de coudère 09420 Rimont
+  phone: 02 86 54 96 30
+  email: infos@nowifisummercamp.fr
+
+social:
+  facebook: "https://facebook.com/nowifisummercamp"
+  twitter: "https://twitter.com/nowifisummercamp"
+
+copyright:
+  developer:
+    name: Samuel Bourdon
+    url: "http://samuelbourdon.com"
+
+google_analytics:
+  tracking_code: 'Your-tracking-code'
