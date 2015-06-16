@@ -1,0 +1,962 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gi",
+				"github"
+			],
+			[
+				"local",
+				"localhost"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"current",
+				"current_page"
+			],
+			[
+				"link",
+				"link_to"
+			],
+			[
+				"price",
+				"price__btn"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"sp",
+				"spacing-medium"
+			],
+			[
+				"spa",
+				"spacing-medium"
+			],
+			[
+				"top",
+				"topbar-color"
+			],
+			[
+				"col",
+				"color-navbar-lighter"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"menu",
+				"menuTrigger"
+			],
+			[
+				"colorn",
+				"color-navbar"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"me",
+				"media"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"color",
+				"color-navbar"
+			],
+			[
+				"spac",
+				"spacing-small"
+			],
+			[
+				"s",
+				"spacing-small"
+			],
+			[
+				"bo",
+				"body_class"
+			],
+			[
+				"ine",
+				"inline-block"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"sm",
+				"spacing-small"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"bot",
+				"border-bottom"
+			],
+			[
+				"menu-item",
+				"menu-item-has-children"
+			],
+			[
+				"colr",
+				"color-navbar"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"get_sty",
+				"get_stylesheet_uri"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_script"
+			],
+			[
+				"parts",
+				"parts_scripts"
+			],
+			[
+				"sha",
+				"shade-lighter"
+			],
+			[
+				"sh",
+				"shade-light"
+			],
+			[
+				"the_c",
+				"the_content"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"max",
+				"max-width:   (property)"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"base",
+				"base-margin"
+			],
+			[
+				"lf",
+				"left"
+			],
+			[
+				"list",
+				"list:s	list-style-type:square"
+			],
+			[
+				"backgr",
+				"background-color:   (property)"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"backgrou",
+				"background-color:   (property)"
+			],
+			[
+				"border-top",
+				"border-top-left-radius:   (property)"
+			],
+			[
+				"the",
+				"the_title"
+			],
+			[
+				"tex",
+				"text-transform:   (property)"
+			],
+			[
+				"bac",
+				"background:   (property)"
+			],
+			[
+				"bacd",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color:   (property)"
+			],
+			[
+				"M",
+				"M"
+			],
+			[
+				"S",
+				"S"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"maw",
+				"max-width"
+			],
+			[
+				"bacn",
+				"background-color:   (property)"
+			],
+			[
+				"fade",
+				"fadeOut	jQuery"
+			],
+			[
+				"removeA",
+				"removeAttribute	jsDOM"
+			],
+			[
+				"remove",
+				"removeAttr	jQuery"
+			],
+			[
+				"remo",
+				"removeAttr	jQuery"
+			],
+			[
+				"slide",
+				"slideToggle	jQuery"
+			],
+			[
+				"box",
+				"box-shadow:   (property)"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"taxo",
+				"taxolabel"
+			],
+			[
+				"boer",
+				"border-bottom"
+			],
+			[
+				"sub",
+				"substr"
+			],
+			[
+				"post-",
+				"post-v-category"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"prest",
+				"presta-block-l"
+			],
+			[
+				"presta",
+				"presta-block-l"
+			],
+			[
+				"li",
+				"li	:link"
+			],
+			[
+				"post",
+				"post-xl"
+			],
+			[
+				"the_post",
+				"the_post_thumbnail"
+			],
+			[
+				"WP",
+				"WP_Query"
+			],
+			[
+				"wp_res",
+				"wp_reset_query"
+			],
+			[
+				"backgroun",
+				"background-color:   (property)"
+			],
+			[
+				"page-a",
+				"page-apropos-content"
+			],
+			[
+				"blo",
+				"blog-nav-link"
+			],
+			[
+				"next_po",
+				"next_post_link"
+			],
+			[
+				"blog",
+				"bloginfo"
+			],
+			[
+				"page-prix",
+				"page-prix-mariage"
+			],
+			[
+				"pa",
+				"page-prix-tirages"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"list-sty",
+				"list-style-type:   (property)"
+			],
+			[
+				"page",
+				"page-prix"
+			],
+			[
+				"cin",
+				"contact-info-column"
+			],
+			[
+				"la",
+				"last-child  (pseudo-class)"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"mous",
+				"mouseover	jQuery"
+			],
+			[
+				"inle",
+				"inline-block"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"overf",
+				"overflow-y:   (property)"
+			],
+			[
+				"mouse",
+				"mouseenter	jQuery"
+			],
+			[
+				"out",
+				"output_style"
+			],
+			[
+				"contact",
+				"contact-message"
+			],
+			[
+				"con",
+				"contact-reseaux-sociaux"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"mint",
+				"min-width:   (property)"
+			],
+			[
+				"do_",
+				"do_shortcode"
+			],
+			[
+				"inlin",
+				"inline-block  (value)"
+			],
+			[
+				"rg",
+				"rgba	rgba()"
+			],
+			[
+				"span",
+				"span-columns"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"ad",
+				"adjust-font-size-to"
+			],
+			[
+				"fon",
+				"font-stack-content"
+			],
+			[
+				"font-stack",
+				"font-stack-special"
+			],
+			[
+				"l",
+				"link	Tag"
+			],
+			[
+				"HTTP_ACCEP",
+				"HTTP_ACCEPT_LANGUAGE  (variable)"
+			],
+			[
+				"th",
+				"the_title"
+			],
+			[
+				"hea",
+				"header-menu-bloc"
+			],
+			[
+				"slider",
+				"slider-container"
+			],
+			[
+				"ccc",
+				"c4c4c4"
+			],
+			[
+				"dernie",
+				"dernier-article-thumb"
+			],
+			[
+				"dernier",
+				"dernier-article-content"
+			],
+			[
+				"pos",
+				"post-infobox"
+			],
+			[
+				"selec",
+				"selection-race-related-posts"
+			],
+			[
+				"sele",
+				"selection-race-ad"
+			],
+			[
+				"margn",
+				"margin-bottom"
+			],
+			[
+				"focu",
+				"focus-post"
+			],
+			[
+				"focus-p",
+				"focus-post-desc"
+			],
+			[
+				"ta",
+				"ta-c	text-align: center;"
+			],
+			[
+				"random",
+				"random-articles"
+			],
+			[
+				"sear",
+				"searchbox-home"
+			],
+			[
+				"width",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"SN",
+				"Snippet: The Loop"
+			],
+			[
+				"PACK",
+				"Package Control: Install Package"
+			],
+			[
+				"can",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 52.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/application.scss",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/syntax.css.erb",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/blog/migrer-de-wordpress-a-middleman.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/blog/wordpress-advanced-custom-fields-cas-pratique.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/blog/wordpress-advanced-custom-fields-partie-1.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/blog/bureau-debout-ikea-hack.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/blog/ruby-on-rails-suite-apprentissage.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/blog/apprendre-ruby-on-rails.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/index.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/layouts/layout-bak.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/layouts/portfolio.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/layouts/blog.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/views/global/_head.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/layout/_contact.scss",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/feed.xml.builder",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/data/settings.yml",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/views/global/_opengraph.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/pages/_home.scss",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/.gitignore",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/.htaccess",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/studio-michel-dubois.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/.env",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/data/ftp.yml",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/ftp.yml",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/views/global/_contact.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/merci.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/quel-est-le-prix-dun-site-internet.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/blog/lazy-load-des-images-avec-advanced-custom-fields.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/Gemfile",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/contact.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/robots.txt",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/404.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/views/global/_favicon.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/layouts/layout.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/dupashop.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/mentions-legales.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/elise-formaglio.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/creative-graphics.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/mesha.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/allo-pizza-vimy.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/vendors/_contactform.scss",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/layout/_footer.scss",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/views/global/_footer.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/blog/brackets-un-passage-en-douceur.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/blog/butinage-de-lien-en-lien.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/tag.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/tag-portfolio.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/index.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/blog.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/views/pages/excerpt.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/vendors/_wordpress.scss",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/pages/_portfolio.scss",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/views/global/_navigation.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/blog/premier-article.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/about.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/comment-creer-un-site-internet.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/javascripts/all.js",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio.html.slim",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/layout/_navigation.scss",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/javascripts/wow.js",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/javascripts/rs.js",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/components/_iconfonts.scss",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/layout/_main.scss",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/views/index.old",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/data/settings.yml",
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/2012-01-01-example-article.html.markdown",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/template-sidebar-two.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/template-sidebar-right.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sass/pages/_site.scss",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sidebar-right.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sidebar-left.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/functions.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sass/parts/_footer-default.scss",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/template-sidebar-left.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/index.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sass/parts/_topbar-default.scss",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sass/_settings.scss",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sass/_harbour.scss",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/header.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sidebar.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/footer.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/parts/footer-default.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/parts/layout-one-sidebar.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/parts/layout-two-sidebars.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/parts/layout-fullwidth.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/parts/topbar-default.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sass/base/_typography.scss",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/js/parts/topbar-default.js",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sass/lib/_colors.scss",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sass/lib/_icons.scss",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/js/harbour-parts.js",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/gulpfile.js",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/js/parts/harbour-parts.js",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/.gitignore",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/package.json",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/js/parts/harbour-parts-concat.js",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/inc/harbour-parts-scripts.php",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sass/lib/_grid.scss",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sass/lib/_vertical-rhythm.scss",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sass/style.scss",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sass/base/_normalize.scss",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/style.css",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/README.md",
+		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/LICENSE",
+		"/Users/samuelbourdon/Work/projets/foundascores/www/wp-content/themes/foundascores/partials/header-topbar.php",
+		"/Users/samuelbourdon/Work/projets/foundascores/www/wp-content/themes/foundascores/sass/foundascores/_wordpress-core.scss",
+		"/Users/samuelbourdon/Work/projets/foundascores/www/wp-content/themes/foundascores/sass/foundascores/_foundascores-settings.scss",
+		"/Users/samuelbourdon/Work/projets/foundascores/www/wp-content/themes/foundascores/sass/normalize.scss",
+		"/Users/samuelbourdon/Work/projets/foundascores/www/wp-content/themes/foundascores/.gitignore",
+		"/Users/samuelbourdon/Work/projets/foundascores/www/wp-content/themes/foundascores/sass/_foundascores-settings.scss",
+		"/Users/samuelbourdon/Work/projets/foundascores/www/wp-content/themes/foundascores/style.css",
+		"/Users/samuelbourdon/Work/projets/foundascores/www/wp-content/themes/foundascores/style.bak",
+		"/Users/samuelbourdon/Work/projets/foundascores/www/wp-content/themes/foundascores/sass/foundation/_settings.scss",
+		"/Users/samuelbourdon/Work/projets/foundascores/www/wp-content/themes/foundascores/sass/foundation/components/_accordion.scss",
+		"/Users/samuelbourdon/Work/clients/Elise/wp-content/themes/elise/functions.php",
+		"/Users/samuelbourdon/Work/clients/Elise/wp-content/themes/elise/sidebar.php",
+		"/Users/samuelbourdon/Work/clients/Elise/wp-content/themes/elise/sass/layout/_header.scss",
+		"/Users/samuelbourdon/Work/clients/Elise/wp-content/themes/elise/header.php",
+		"/Users/samuelbourdon/Work/clients/Elise/wp-content/themes/elise/sass/layout/_site.scss",
+		"/Users/samuelbourdon/Work/clients/Elise/wp-content/themes/elise/page.php",
+		"/Users/samuelbourdon/Work/clients/Elise/wp-content/themes/elise/footer.php",
+		"/Users/samuelbourdon/Work/clients/Elise/wp-content/themes/elise/sass/style.scss",
+		"/Users/samuelbourdon/Work/clients/Elise/wp-content/themes/elise/sass/lib/_config.scss",
+		"/Users/samuelbourdon/Work/clients/Elise/wp-content/themes/elise/sass/pages/_adultes.scss",
+		"/Users/samuelbourdon/Work/clients/Elise/wp-content/themes/elise/sass/layout/_sidebar.scss",
+		"/Users/samuelbourdon/Work/clients/Elise/wp-content/themes/elise/sass/pages/_page.scss",
+		"/Users/samuelbourdon/Work/clients/Elise/wp-content/themes/elise/sass/lib/_breakpoints.scss",
+		"/Users/samuelbourdon/Work/clients/Elise/wp-content/themes/elise/sass/pages/_post.scss"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"c'est",
+			"sitemap",
+			"fichiers",
+			"chalenge",
+			".",
+			"<div class=\"",
+			"<li>",
+			"</li>",
+			"</div>",
+			"http://samuelbourdon.com/wp-content/uploads/2014/10",
+			"<p>",
+			"</p>",
+			"</div>",
+			"</h3>",
+			"<h3 class=\"",
+			"<div class=\"",
+			"foundascores",
+			"mesha",
+			";\n",
+			"minimap",
+			"media",
+			"post-h",
+			"default",
+			";\n",
+			"\n$",
+			"brea",
+			"main-menu li",
+			"main-menu",
+			"main",
+			"logo",
+			"slider",
+			"related",
+			"race",
+			"cell",
+			"focus",
+			"width",
+			"dotted",
+			"focus-block",
+			"focus",
+			"cells",
+			"w4",
+			"dernier",
+			"btn",
+			"==o",
+			"searchbg",
+			"z-index",
+			"txtcenter",
+			"sep",
+			"header",
+			"ul",
+			"hover",
+			"hr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"challenge\n.",
+			"\n.",
+			"\nli ",
+			"\n",
+			"/images",
+			"p ",
+			"",
+			".",
+			"harbour",
+			"elise",
+			"post-v"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.974899598394,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.csslint_result_view":
+	{
+		"height": 269.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"dupas",
+				"source/portfolio/clients/dupashop.html.slim"
+			],
+			[
+				"allo",
+				"source/portfolio/clients/allo-pizza-vimy.html.slim"
+			],
+			[
+				"crea",
+				"source/portfolio/clients/creative-graphics.html.slim"
+			],
+			[
+				"michel",
+				"source/portfolio/clients/studio-michel-dubois.html.slim"
+			],
+			[
+				"elise",
+				"source/portfolio/clients/elise-formaglio.html.slim"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true
+}
