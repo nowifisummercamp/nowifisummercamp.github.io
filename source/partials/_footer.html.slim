@@ -1,0 +1,32 @@
+footer
+  div
+    = image_tag "/images/logo.png", alt:"No Wifi Summercamp"
+  div role="content-info"
+    p #{data.settings.author.address}
+    p Tel : #{data.settings.author.phone}
+    p Mail : #{data.settings.author.email}
+    p 
+      ' Suivez nous sur 
+      = link_to "Facebook", data.settings.social.facebook
+    p 
+      ' et sur
+      = link_to "Twitter", data.settings.social.twitter
+
+  nav role="navigation"
+    ul
+      li = link_to "Accueil", "/"
+      li = link_to "Camp", "/camp.html"
+      li = link_to "Equipe", "/equipe.html"
+      li = link_to "Activités", "/activites.html"
+      li = link_to "Blog", "/blog.html"
+      li = link_to "Réservation", "/reservation.html"
+      li = link_to "Mentions légales", "/mentions-legales.html"
+      li = link_to "Conditions générales de vente", "/cgv.html"
+
+  p 
+    '  &copy;
+    = Time.now.year
+    '
+    = link_to data.settings.author.name, "/"
+    '  - Design et développement :
+    = link_to data.settings.copyright.developer.name, data.settings.copyright.developer.url

@@ -1,0 +1,19 @@
+doctype html
+html lang="fr"
+  head
+    meta charset="utf-8"
+    meta name="viewport" content="width=device-width,initial-scale=1"
+
+    title = current_page.data.title ? current_page.data.title : data.settings.site.title
+    meta name="description" content="#{current_page.data.description}"
+    meta name="robots" content="index,follow"
+
+    = stylesheet_link_tag 'application'
+
+  body class="#{page_classes}"
+    
+    = partial "partials/navbar"
+
+    == yield
+
+    = partial "partials/footer"
