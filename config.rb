@@ -53,6 +53,7 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+require 'slim'
 
 activate :deploy do |deploy|
   deploy.method = :git
