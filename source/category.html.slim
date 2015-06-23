@@ -1,0 +1,11 @@
+---
+hero_image: blog.jpg
+pageable: true
+---
+div role="main"
+  
+  = partial "partials/header", locals: {title: category}
+
+  = partial "partials/articles-list"
+
+  = partial "partials/call-to-action"

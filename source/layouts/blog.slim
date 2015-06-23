@@ -1,0 +1,37 @@
+= wrap_layout :layout do
+  
+  div role="main"
+  
+  = partial "partials/header"
+
+  aside
+    - author = find_author(current_article.data.author)
+    = image_tag "/images/equipe/#{author.picture}"
+    h3 = author.name
+    p 
+      ' Publié le : 
+      = I18n.l current_page.date, format: '%e %b %Y'
+    p
+      ' Dans :
+      = current_article.data.category
+
+  article
+    = current_article.data.excerpt
+
+    == yield
+
+  nav role= "navigation"
+    ul
+      li
+        - prev_article = current_article.previous_article
+        - if prev_article
+            = link_to prev_article.title, prev_article.url, 
+              rel: 'prev', title: "Previous article: #{prev_article.title}"
+      li
+        - next_article = current_article.next_article
+        - if next_article
+            = link_to next_article.title, next_article.url, 
+              rel: 'next', title: "Next article: #{next_article.title}"
+
+  / Add Disqus comments
+  = disqus

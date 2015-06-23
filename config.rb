@@ -1,32 +1,42 @@
-###
-# Compass
-###
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
+require 'slim'
 
 ###
-# Page options, layouts, aliases and proxies
+# Blog settings
 ###
+Time.zone = "Paris"
+I18n.config.enforce_available_locales = false
 
-# Per-page layout changes:
-#
-# With no layout
-# page "/path/to/file.html", :layout => false
-#
-# With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
-#
-# A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
+activate :blog do |blog|
+    blog.name = "blog"
+    blog.permalink = "/{title}.html"
+    blog.sources = "/blog/{year}-{month}-{day}-{title}.html"
+    blog.layout = "layouts/blog"
+    blog.default_extension = ".markdown"
+    blog.new_article_template = "source/new-article.erb" 
 
-# Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
-# proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
-#  :which_fake_page => "Rendering a fake page with a local variable" }
+  # Enable pagination
+    blog.paginate = true
+    blog.per_page = 20
+    blog.page_link = "/{num}"
+
+  # Custom categories
+    blog.custom_collections = {
+      category: {
+        link: '/categories/{category}.html',
+        template: '/category.html'
+      }
+    }
+end
+
+page "/feed.xml", layout: false
+
+###
+# Disqus comments
+###
+activate :disqus do |d|
+  d.shortname = 'nowifisummercamp'
+end
+
 
 ###
 # Helpers
@@ -36,24 +46,25 @@
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
+configure :development do
+  activate :livereload
+end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def find_author(author_slug)
+    author_slug = author_slug.downcase
+    result = data.members.select {|member| member.keys.first == author_slug }
+    raise ArgumentError unless result.any?
+    result.first
+  end
+end
 
-set :css_dir, 'stylesheets'
-
-set :js_dir, 'javascripts'
-
+set :css_dir,    'stylesheets'
+set :js_dir,     'javascripts'
 set :images_dir, 'images'
 
-require 'slim'
+activate :i18n, mount_at_root: :fr
 
 activate :deploy do |deploy|
   deploy.method = :git

@@ -1,35 +1,44 @@
-- name: Laurent
+- laurent:
+  name: Laurent
   picture: laurent.jpg
   description: "C’est le grand chef du camp, il veille sur tout et sur tout le monde, le premier à se lever et le dernier à se coucher.  Derrière son côté sérieux et protecteur, il est dôté de très grandes valeurs humaines."
 
-- name: Mathilde
+- mathilde:
+  name: Mathilde
   picture: mathilde.jpg
   description: "Comptable et trésorière, elle gère tout ce qui se rapporte aux finances sur le camp, du ravitallement aux besoins en materiaux. En fin d’après-midi faites attention à ses bombes à eau."
 
-- name: Vincent
+- vincent:
+  name: Vincent
   picture: vincent.jpg
   description: "Notre expert en logistique, il sait trouver n’importe quoi, n’importe ou et trouve toujours le moyen de transporter le matériel. Même si il faut inventer de nouveaux modes de transport."
 
-- name: Amélie
+- amélie:
+  name: Amélie
   picture: amelie.jpg
   description: "Artiste dans l’âme, elle connait mille et une techniques de dessin, de peinture et de sculpture qu’elle transmet à tous. On peut souvent la trouver en train de méditer au pied de notre grand chêne."
 
-- name: Youri
+- youri:
+  name: Youri
   picture: youri.jpg
   description: "Le plus sportif de toute l’équipe ! Un athlète de haut niveau qui vous enseignera une multitude de sport en toute sécurité. On dit également qu’ à la nuit tombée, il se tranforme en danseur fou."
 
-- name: Micky
+- micky:
+  name: Micky
   picture: micky.jpg
   description: "Le meilleur musicien de la bande qui vous apprendra à construire des instruments et en jouer. C’est aussi le docteur des vélos qu’il répare et customise pour les rendre plus joyeux."
 
-- name: Karine
+- karine:
+  name: Karine
   picture: karine.jpg
   description: "Après des années de voyages autour du monde, elle s’est posée chez nous pour nous aider dans notre jardin potager. Elle en est depuis responsable pour le bien de nos assiettes."
 
-- name: Romain
+- romain:
+  name: Romain
   picture: romain.jpg
   description: "Le roi du système D et du bricolage, donnez lui deux morceaux de bois, il vous fera un arc, donnez de la terre et des pierres, il vous construira une maison. Donnez lui un seau d’eau, il vous arrosera."
 
-- name: Anne-Lise
+- anne_lise:
+  name: Anne-Lise
   picture: anne-lise.jpg
   description: "La personne à aller voir en cas de bobos. Médecin sur le camp pour les humains elle est aussi responsable de la bonne santé de nos animaux. Elle vous accompagnera pour vos balades à cheval."

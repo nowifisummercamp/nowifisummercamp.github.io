@@ -1,0 +1,38 @@
+/ Variables for pagination
+- locals      = current_resource.metadata[:locals]
+- prev_page   = locals['prev_page']
+- page_number = locals['page_number']
+- num_pages   = locals['num_pages']
+- next_page   = locals['next_page']
+
+p Catégories :
+ul
+  li = link_to "La vie  au camp",      category_path("la-vie-au-camp")
+  li = link_to "Activités",            category_path("activites")
+  li = link_to "Reportage photo",      category_path("reportage-photo")
+  li = link_to "Portrait de résident", category_path("portrait-de-resident")
+  li = link_to "Conseils",             category_path("conseils")
+  li = link_to "Lifehack",             category_path("lifehack")
+
+ul
+- page_articles.each_with_index do |article, i|
+  li
+    h2 = link_to article.title, article
+    p
+    ' Publié le
+    = I18n.l article.date, format: '%e %b %Y'
+    '  par
+    = article.data.author
+    p = article.data.excerpt
+    = image_tag article.data.thumbnail
+
+/ Show links if needed
+- if num_pages > 1
+  nav role= "navigation"
+    - if prev_page
+      = link_to '< Billets récents', prev_page
+    span
+      '  Page #{page_number} 
+      '  sur #{num_pages}
+    - if next_page
+      = link_to 'Billets anciens >', next_page

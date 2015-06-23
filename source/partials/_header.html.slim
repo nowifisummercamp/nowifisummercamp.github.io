@@ -1,9 +1,12 @@
 header
+  / Set the title
+  - title = current_page.data.title if title.blank?
+
   / Check if it's the homepage
   - if current_page.url == '/'
     = image_tag "/images/logo-home.png", alt: "No Wifi Summercamp, camp de vacances en plein air"
     p = current_page.data.slogan_sup
     p = current_page.data.slogan
-    h1 = current_page.data.title
+    h1 = title
   - else
-    h1 = current_page.data.title
+    h1 = title
