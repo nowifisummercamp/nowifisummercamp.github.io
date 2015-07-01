@@ -1,0 +1,55 @@
+// ============================================================================
+// Testimonials
+// ============================================================================
+
+// Styles for testimonials
+// ------------------------------------
+.testimonial{
+  padding: 2.5em 0 1.5em 0;
+  text-align: center;
+  border-bottom: 1px solid #E5E5E5;
+
+  @include media($medium){
+    @include span-columns(6);
+    @include omega(2n);
+    text-align: left;
+  }
+
+  &__img{
+    display: inline-block;
+    border-radius: 50%;
+    border: 6px solid white;
+    margin-bottom: 1.5em;
+    box-shadow: 0 em(3) em(7) rgb(232, 232, 232);
+
+    @include media($medium){
+      float: left;
+      margin-right: 1.5em;
+    }
+  }
+
+  &__content{
+    font-size: $font-size-small;
+    margin-bottom: 0
+  }
+
+  &__name{
+    @extend h4;
+    display: block;
+
+    @include media($medium){
+      display: inline-block;
+    }
+  }
+
+  &__infos{
+    display: inline-block;
+    font-size: $font-size-tiny;
+    color: $color-grey-neutral;
+    padding: .75em .25em;
+  }
+
+  &__message{
+    font-size: $font-size-small;
+  }
+}

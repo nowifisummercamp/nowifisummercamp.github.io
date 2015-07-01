@@ -1,11 +1,14 @@
 ---
 hero_image: blog.jpg
 pageable: true
+per_page: 20
 ---
 div role="main"
   
   = partial "partials/header", locals: {title: category}
 
-  = partial "partials/articles-list"
+  .section
+    .wrapper
+      = partial "partials/articles-list"
 
   = partial "partials/call-to-action"

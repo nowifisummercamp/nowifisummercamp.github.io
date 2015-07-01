@@ -15,19 +15,19 @@ ul
   li = link_to "Lifehack",             category_path("lifehack")
 
 ul
-- page_articles.each_with_index do |article, i|
-  li
-    h2 = link_to article.title, article
-    p
-    ' Publié le
-    = I18n.l article.date, format: '%e %b %Y'
-    '  par
-    = article.data.author
-    p = article.data.excerpt
-    = image_tag article.data.thumbnail
+  - page_articles.each_with_index do |article, i|
+    li.blog__list__item
+      = image_tag article.data.thumbnail class: "blog__list__img"
+      h2.blog__list__title = link_to article.title, article, class: "blog__list__link"
+      p
+      ' Publié le
+      = I18n.l article.date, format: '%e %b %Y'
+      '  par
+      = article.data.author
+      p = article.data.excerpt
 
 / Show links if needed
-- if num_pages > 1
+- if current_resource.metadata.metadata[:locals]['num_pages'] == 0
   nav role= "navigation"
     - if prev_page
       = link_to '< Billets récents', prev_page

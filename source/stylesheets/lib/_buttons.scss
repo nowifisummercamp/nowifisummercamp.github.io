@@ -1,0 +1,85 @@
+// ===========================================================================
+// Buttons
+// ===========================================================================
+
+$btn-default-font-size : 1em;
+$btn-padding-horizontal : 1em;
+$btn-padding-vertical : 0.5em;
+$btn-margin-bottom: 1.5em;
+
+%btn{
+  display: inline-block;
+  cursor: pointer;
+  font-family: $font-stack-sans;
+  text-decoration: none;
+  border: 0;
+  text-align: center;
+  padding : $btn-padding-vertical $btn-padding-horizontal;
+  margin-bottom: $btn-margin-bottom;
+  color: white;
+  border-radius:$base-border-radius;
+  transition: background-color 300ms ease-out;
+  
+  &:hover,
+  &:active{
+    color: white;
+  }
+  
+  &:active{
+    transform: translateY(5px);
+  }
+}
+
+.btn__wrapper{
+  text-align: center;
+}
+
+.btn,
+button,
+input[type="submit"]{
+  @extend %btn;
+}
+
+.btn--large{
+  width: 100%;
+  line-height: 2em;
+}
+
+.btn--medium{
+  width: 50%;
+  line-height: 2em;
+}
+
+
+.btn--primary{
+  font-size: $font-size-body;
+  color: $color-primary;
+  border: em(2, $font-size-body) solid $color-primary;
+  
+  &:hover, &:active{
+    color: white;
+    background-color: $color-primary;
+    box-shadow: $base-box-shadow;
+  }
+}
+
+.btn--secondary{
+  font-size: $font-size-large;
+  color: $color-secondary;
+  border: em(4, $font-size-large) solid $color-secondary;
+  
+  &:hover{
+    background-color: $color-secondary;
+    box-shadow: 0px em(2, $font-size-large) 0px darken($color-secondary, 10%);
+  }
+}
+
+.btn--fill{
+  font-size: $font-size-large;
+  background-color: $color-secondary;
+  box-shadow: 0px em(2, $font-size-large) 0px darken($color-secondary, 10%);
+  
+  &:hover{
+    background-color: darken($color-secondary,10%);
+  }
+}

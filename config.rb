@@ -58,6 +58,12 @@ helpers do
     raise ArgumentError unless result.any?
     result.first
   end
+
+  def set_hero_image(image)
+    styles = %{<style>.header{background-image: url('/images/backgrounds/small/#{image}');}
+    @media screen and (min-width: 25em){.header{background-image: url('/images/backgrounds/medium/#{image}');}}
+    @media screen and (min-width: 50em){.header{background-image: url('/images/backgrounds/#{image}');}}</style>}
+  end
 end
 
 set :css_dir,    'stylesheets'

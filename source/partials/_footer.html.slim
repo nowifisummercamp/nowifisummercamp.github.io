@@ -1,32 +1,32 @@
-footer
-  div
-    = image_tag "/images/logo.png", alt:"No Wifi Summercamp"
-  div role="content-info"
-    p #{data.settings.author.address}
-    p Tel : #{data.settings.author.phone}
-    p Mail : #{data.settings.author.email}
-    p 
-      ' Suivez nous sur 
-      = link_to "Facebook", data.settings.social.facebook
-    p 
-      ' et sur
-      = link_to "Twitter", data.settings.social.twitter
+footer.footer
+  .wrapper
+    .footer__logo
+      = image_tag "/images/logo/logo.png", srcset: "/images/logo/logo.png 1x, /images/logo/logo@2x.png 2x", alt:"No Wifi Summercamp"
+    ul.footer__content role="content-info"
+      li.footer__content__item #{data.settings.author.address}
+      li.footer__content__item Tel : #{data.settings.author.phone}
+      li.footer__content__item Mail : #{data.settings.author.email}
+      li.footer__content__item 
+        ' Suivez nous sur 
+        = link_to "Facebook", data.settings.social.facebook
+        '  et sur
+        = link_to "Twitter", data.settings.social.twitter
 
-  nav role="navigation"
-    ul
-      li = link_to "Accueil",          "/"
-      li = link_to "Camp",             "/camp.html"
-      li = link_to "Equipe",           "/equipe.html"
-      li = link_to "Activités",        "/activites.html"
-      li = link_to "Blog",             "/blog.html"
-      li = link_to "Réservation",      "/reservation.html"
-      li = link_to "Mentions légales", "/mentions-legales.html"
-      li = link_to "Conditions générales de vente", "/cgv.html"
+    nav.footer__menu role="navigation"
+      ul
+        li.footer__menu__item = link_to "Accueil",          "/",                      class:"footer__menu__link"
+        li.footer__menu__item = link_to "Camp",             "/camp.html",             class:"footer__menu__link"
+        li.footer__menu__item = link_to "Equipe",           "/equipe.html",           class:"footer__menu__link"
+        li.footer__menu__item = link_to "Activités",        "/activites.html",        class:"footer__menu__link"
+        li.footer__menu__item = link_to "Blog",             "/blog.html",             class:"footer__menu__link"
+        li.footer__menu__item = link_to "Réservation",      "/reservation.html",      class:"footer__menu__link"
+        li.footer__menu__item = link_to "Mentions légales", "/mentions-legales.html", class:"footer__menu__link"
+        li.footer__menu__item = link_to "Conditions générales de vente", "/cgv.html", class:"footer__menu__link"
 
-  p 
-    '  &copy;
-    = Time.now.year
-    '
-    = link_to data.settings.author.name, "/"
-    '  - Design et développement :
-    = link_to data.settings.copyright.developer.name, data.settings.copyright.developer.url
+    p.footer__copyright 
+      '  &copy;
+      = Time.now.year
+      '
+      = link_to data.settings.author.name, "/"
+      '  - Design et développement :
+      = link_to data.settings.copyright.developer.name, data.settings.copyright.developer.url

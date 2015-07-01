@@ -1,0 +1,45 @@
+// ============================================================================
+// Header
+// ============================================================================
+
+// Styles for the header)
+// ------------------------------------
+.header{
+  padding: 6em 0;
+  background-color: #D5DFD3 !important; // Set a color if no image
+  background: url(/images/header/vallee-ariege.jpg); //default-image
+  background-size: cover;
+  background-position: center bottom;
+  text-align: center;
+
+  @include media($small){
+    padding: 12em 0 9em 0;
+  }
+
+  &__logo{
+    margin-bottom: 1.5em;
+  }
+
+  &__title{
+    @extend h1;
+    color: white;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+
+    @include media($small){
+      font-size: $font-size-xxxlarge;
+    }
+  }
+
+  &__slogan{
+    @extend h4;
+    color: white;
+  }
+
+  &__infos{
+    margin-top: em(48,18);
+    font-size: $font-size-body;
+    font-weight: 400;
+    color: #BBAC8B;
+    text-shadow: 2px 2px 10px black;
+  }
+}

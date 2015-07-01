@@ -1,0 +1,128 @@
+// ----------------------------------------------------------------------------
+// Summary
+// ----------------------------------------------------------------------------
+
+
+// - Grid
+// - Media Queries
+// - Colors
+// - Typography
+// - Spacing
+
+
+
+
+// ----------------------------------------------------------------------------
+// Grid variables
+// ----------------------------------------------------------------------------
+
+// Number of columns for the grid
+$number-of-columns : 12;
+// Max-width of the outer-container
+$grid-max-width    : em(1190);
+
+// ----------------------------------------------------------------------------
+// Media queries variables
+// ----------------------------------------------------------------------------
+
+// Values in em(px) or em
+$tiny   : em(480);
+$small  : em(640);
+$medium : em(800);
+$large  : em(1024);
+$xlarge : em(1440);
+$xxlarge: em(1920);
+
+$small-to-medium: new-breakpoint(min-width $small max-width $medium - 1);
+
+
+
+// ----------------------------------------------------------------------------
+// Colors
+// ----------------------------------------------------------------------------
+
+// Typography colors
+$color-body       : #48686C;
+$color-heading    : #A27D2D;
+$color-link       : #BD5800;
+$color-navbar-link: #ffffff;
+
+// Shades
+$color-grey-neutral : #969696;
+$color-grey-tint    : #8D938C;
+$color-grey-dark    : #868478;
+$color-grey-darker  : #4E4D45;
+
+
+// Brand colors
+$color-primary  : #A27D2D;
+$color-secondary: #BD5800;
+$color-action   : #BD5800;
+$color-default  : #48686C;
+$color-navbar   : #202600;
+
+$color-navbar-light     : #202600;
+$color-navbar-lighter   : #202600;
+
+
+// ----------------------------------------------------------------------------
+// Typography variables
+// ----------------------------------------------------------------------------
+
+// Font-family
+$font-stack-serif  : "Garamond", Helvetica, Arial sans-serif;
+$font-stack-sans   : "Open Sans", Helvetica, Arial sans-serif;
+$font-stack-heading: "Bitter", Garamond, serif;
+
+// Font weight
+$font-weight-light  : 300;
+$font-weight-normal : 400;
+$font-weight-bold   : 700;
+
+// Font Sizes in px, let em($font-siez-x) do the maths
+$font-size-body    : 18px; //1.125em
+
+$font-size-tiny    : 14px; //0.875em;
+$font-size-small   : 16px; //1em;
+$font-size-medium  : 18px; //1.125em;
+$font-size-large   : 24px; //1.5em;
+$font-size-xlarge  : 36px; //2.25em;
+$font-size-xxlarge : 48px; // 3em;
+$font-size-xxxlarge: 64px; //4em;
+
+// Line height, use for maths in _vertical-rhythm.scss
+$base-line-height: 1.5; // unitless
+//$base-line-height-px: $font-size-body * $base-line;
+
+// ----------------------------------------------------------------------------
+// Spacing
+// ----------------------------------------------------------------------------
+
+// Use these values in block element like div section article..
+// @todo: decide to switch to rem or not
+
+$spacing-small  : 12px;
+$spacing-medium : 24px;
+$spacing-large  : 48px;
+$spacing-xlarge : 64px;
+
+// // Other Sizes
+$base-border-radius: 8px;
+// $base-spacing: $base-line-height * 1em;
+// $small-spacing: $base-spacing / 2;
+// $base-z-index: 0;
+
+// // Box shadows
+$base-box-shadow: 0px 2px 1px #DFDFDF;
+
+// // Border
+// $base-border-color: $light-gray;
+// $base-border: 1px solid $base-border-color;
+
+// // Background Colors
+// $base-background-color: #fff;
+// $secondary-background-color: lighten($base-border-color, 10%);
+
+// // Forms
+// $form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+// $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);

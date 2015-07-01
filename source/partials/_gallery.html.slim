@@ -1,6 +1,7 @@
-div
-  ul
-    - gallery.each do |picture|
-      li
-        = link_to "/images/galleries/#{picture}" do
-          = image_tag "/images/galleries/thumbs/#{picture}"
+.section.gallery
+  .wrapper
+    ul
+      - gallery.each do |picture|
+        li.gallery__item
+          = link_to "/images/galleries/#{picture}" do
+            = image_tag "/images/galleries/thumbs/#{picture}"

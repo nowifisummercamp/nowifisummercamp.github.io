@@ -1,0 +1,33 @@
+// ============================================================================
+// Galleries
+// ============================================================================
+
+// Styles for galleries
+// ------------------------------------
+.gallery{
+  background-image: none;
+  background-color: #3C371D;
+  padding: 4.5em 0;
+  
+  @include media($large){
+    background: url("/images/background-gallery.jpg") no-repeat #3C371D;
+    background-position: center;
+  }
+
+  &__item{
+    display: inline-block;
+    width: 50%;
+
+    @include media($small){
+      width: 33.33333333%;
+    }
+
+    @include media($large){
+      width: 25%;
+    }
+
+    img{
+      vertical-align: bottom;
+    }
+  }
+}

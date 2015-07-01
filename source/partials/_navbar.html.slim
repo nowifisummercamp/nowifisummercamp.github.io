@@ -1,11 +1,15 @@
-div role="banner"
-  div
-    = image_tag "/images/logo.png", alt: "No Wifi Summercamp"
-    nav role="navigation"
-     ul
-       li = link_to "Accueil",     '/'
-       li = link_to "Camp",        '/camp.html'
-       li = link_to "Equipe",      '/equipe.html'
-       li = link_to "Activités",   '/activites.html'
-       li = link_to "Blog",        '/blog.html'
-       li = link_to "Réservation", '/reservation.html'
+header.navbar role="banner"
+  .wrapper
+    .navbar__logo
+      = link_to '/' do
+        = image_tag "/images/logo/logo.png", srcset: "/images/logo/logo.png 1x, /images/logo/logo@2x.png 2x", alt: "No Wifi Summercamp"
+    nav.navbar__menu role="navigation"
+      button.navbar__toggle id="main-menu-toggle"
+        span.icon-navicon MENU 
+      ul.main-menu id="main-menu"
+        li.main-menu__item = link_to "Accueil",     '/',                 class: "main-menu__link"
+        li.main-menu__item = link_to "Camp",        '/camp.html',        class: "main-menu__link"
+        li.main-menu__item = link_to "Equipe",      '/equipe.html',      class: "main-menu__link"
+        li.main-menu__item = link_to "Activités",   '/activites.html',   class: "main-menu__link"
+        li.main-menu__item = link_to "Blog",        '/blog.html',        class: "main-menu__link"
+        li.main-menu__item = link_to "Réservation", '/reservation.html', class: "main-menu__link main-menu__link--highlight"

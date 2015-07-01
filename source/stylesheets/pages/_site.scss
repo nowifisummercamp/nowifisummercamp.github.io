@@ -1,0 +1,42 @@
+// ============================================================================
+// site
+// ============================================================================
+
+
+// site wide styles
+// ------------------------------------
+
+// Wrap the whole page and center it
+.wrapper {
+  @include outer-container();
+  padding: 0 1em;
+}
+
+.row {
+  @include row();
+}
+
+
+// Accessibility
+// ------------------------------------
+// Text meant only for screen readers.
+
+.skip-links {
+  position: absolute;
+}
+
+a.skip-links {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0.5em;
+  background: black;
+  color: white;
+  text-decoration: none;
+}
+
+a:focus.skip-links {
+  position: static;
+  overflow: visible;
+  clip: auto;
+}

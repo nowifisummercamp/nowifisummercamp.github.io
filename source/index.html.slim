@@ -10,41 +10,54 @@ div role="main"
   
   = partial "partials/header"
 
-  h2 Débranchez !
-  p Le temps d’un week-end, d’une semaine ou d’un mois, oubliez votre téléphone, votre tablette, votre ordinateur, les réseaux sociaux, les emails, les jeux en lignes, l’information en continue...
+  .section.section--intro
+    .wrapper
+      .section__content--centered
+        h2.section__title.ornement Débranchez !
+        p Le temps d’un week-end, d’une semaine ou d’un mois, oubliez votre téléphone, votre tablette, votre ordinateur, les réseaux sociaux, les emails, les jeux en lignes, l’information en continue...
 
-  p Mettez de côté  toute technologie qui tend à devenir de plus en plus encombrante dans votre vie et ne vous laisse jamais un instant pour vous reposer l’esprit.
+        p Mettez de côté  toute technologie qui tend à devenir de plus en plus encombrante dans votre vie et ne vous laisse jamais un instant pour vous reposer l’esprit.
 
-  p Rejoignez le No Wi-fi Summercamp pour vous reconnecter avec vous même au travers de nombreuses activités en pleine nature, de vie en communauté, et de loisirs loin de tout écran et toute connexion internet.
+        p Rejoignez le No Wi-fi Summercamp pour vous reconnecter avec vous même au travers de nombreuses activités en pleine nature, de vie en communauté, et de loisirs loin de tout écran et toute connexion internet.
 
-  h3 Le camp
-  = image_tag "/images/accueil/camp.jpg"
-  p Situé aux abords du parc naturel régional des Pyrénées Ariégeoises, à proximité de lacs, de rivières et de nombreux départ de randonnées, le camp vous accueille d’avril à octobre  pour la durée que vous souhaitez.
-  = link_to "Découvrir le camp", "/camp.html" 
-
-  h3 L'équipe
-  = image_tag "/images/accueil/equipe.jpg"
-  p Notre équipe, constituée de personnes venant de tout horizon est là pour vous accompagner dans les activités, vous transmettre leur savoir-faire et vous divertir autour des nombreux feux de camps
-  = link_to "Découvrir l'équipe", "/equipe.html"
-
-  h3 Les activités
-  = image_tag "/images/accueil/activites.jpg"
-  p Pas le temps de vous ennuyer, il y a de quoi faire sur le camp ! Activités nautiques, sports en plein air,  randonnées, atelier de fabrication ou restauration d’objets, apprentissage de la permaculture.
-  = link_to "Découvrir l'équipe", "/activites.html"
+  .section
+    .wrapper
+      .mod
+        h3.mod__title Le camp
+        = image_tag "/images/pages/accueil/camp.jpg", srcset: "/images/pages/accueil/camp.jpg 1x, /images/pages/accueil/camp@2x.jpg 2x", alt: "Camp de vacances", class: "mod__img mod__img--rounded"
+        p Situé aux abords du parc naturel régional des Pyrénées Ariégeoises, à proximité de lacs, de rivières et de nombreux départ de randonnées, le camp vous accueille d’avril à octobre  pour la durée que vous souhaitez.
+        = link_to "Découvrir le camp", "/camp.html", class: "btn btn--primary"
+    
+      .mod
+        h3.mod__title L'équipe
+        = image_tag "/images/pages/accueil/equipe.jpg", srcset: "/images/pages/accueil/equipe.jpg 1x, /images/pages/accueil/equipe@2x.jpg 2x", alt: "Equipe Summercamp", class: "mod__img mod__img--rounded"
+        p Notre équipe, constituée de personnes venant de tout horizon est là pour vous accompagner dans les activités, vous transmettre leur savoir-faire et vous divertir autour des nombreux feux de camps
+        = link_to "Découvrir l'équipe", "/equipe.html", class: "btn btn--primary"
+      
+      .mod
+        h3.mod__title Les activités
+        = image_tag "/images/pages/accueil/activites.jpg", srcset: "/images/pages/accueil/activites.jpg 1x, /images/pages/accueil/activites@2x.jpg 2x", alt: "Activités de plein air", class: "mod__img mod__img--rounded"
+        p Pas le temps de vous ennuyer, il y a de quoi faire sur le camp ! Activités nautiques, sports en plein air,  randonnées, atelier de fabrication ou restauration d’objets, apprentissage de la permaculture.
+        = link_to "Découvrir les activités", "/activites.html", class: "btn btn--primary"
 
   = partial "partials/gallery", locals: {gallery: data.galleries.homepage}
 
-  h2 Ils ont adoré leur séjour !
-  ul
-    - data.testimonials.each do |testimonial|
-      li
-        = image_tag "/images/accueil/#{testimonial.picture}"
-        p
-          span = testimonial.name
-          ' ,
-          span = testimonial.age
-          ' ,
-          span = testimonial.town
-        p = testimonial.message
+  .section
+    .wrapper
+      h2.section__title Ils ont adoré leur séjour !
+      ul
+        - data.testimonials.each do |testimonial|
+          li.testimonial
+            = image_tag "/images/testimonials/#{testimonial.picture}", srcset: "/images/testimonials/#{testimonial.picture} 1x, /images/testimonials/#{testimonial.picture2x} 2x", alt: "Témoignages de clients",  class: "testimonial__img"
+            
+            p.testimonial__content
+              
+              span.testimonial__name = testimonial.name
+              ' 
+              span.testimonial__infos = testimonial.age
+              ' 
+              span.testimonial__infos = testimonial.town
+            
+            p.testimonial__message = testimonial.message
 
   = partial "partials/call-to-action"

@@ -1,0 +1,48 @@
+// ============================================================================
+// Module /mod
+// ============================================================================
+
+// Styles for the generic module ( team members / activities)
+// ------------------------------------
+.mod{
+  text-align: center;
+  margin-bottom: 3em;
+
+  @include media($small-to-medium){
+    @include span-columns(6);
+    @include omega(2n);
+  }
+
+  @include media($medium){
+    @include span-columns(4);
+    @include omega(3n);
+  }
+  
+  &__title{
+    @extend h3;
+    text-align: center;
+
+    &:after{
+      @extend %ornement;
+    }
+  }
+
+  &__img{
+    margin-bottom: 1.5em;
+    border: em(10) solid #fcfcfc;
+    box-shadow: 0 em(3) em(7) rgb(232, 232, 232);
+    transition: all .2s ease-in-out;
+
+    &:hover{
+      box-shadow: 0 em(10) em(7) rgb(230, 230, 230);
+    }
+  }
+
+  &__img--rounded{
+    border-radius: 50%;
+  }
+
+  &__img--square{
+    border-radius: em(5);
+  }
+}

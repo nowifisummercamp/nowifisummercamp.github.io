@@ -1,0 +1,54 @@
+// ============================================================================
+// Section
+// ============================================================================
+
+// Generic styles for section
+// ------------------------------------
+.section{
+  clear: both;
+  padding: 4.5em 0 3em 0;
+  background: url("/images/backgrounds/texture-dirt.jpg") repeat-x;
+
+  &--intro{
+    background: url("/images/backgrounds/background-intro.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  &__content,
+  &__img{
+    @include media($medium){   
+      @include span-columns(6);
+    }
+  }
+
+  &__content--large{
+    @include media($medium){   
+      @include span-columns(8);
+      @include shift(2);
+    }
+  }
+
+  &__content--centered{
+    @include media($medium){
+      @include span-columns(6);
+      @include shift(3);
+    }
+  }
+
+  &__content--reverse{
+    float: right;
+    margin-right: 0;
+    margin-left: 2.35765%;
+  }
+
+  &__title{
+    @extend h2;
+    text-align: center;
+
+    &:after{
+      @extend %ornement;
+    }
+  }
+
+}
+

@@ -1,0 +1,104 @@
+// ============================================================================
+// Navbar
+// ============================================================================
+
+// Local variables
+$navbar-height: em(48);
+
+// Generic styles for the navbar
+// ------------------------------------
+.navbar{
+  background-color: $color-navbar;
+  position: fixed;
+  width: 100%;
+
+  &__logo{
+    float: left;
+    padding-top: em(4);
+    min-height: $navbar-height;
+  }
+
+  &__menu{
+    @include media($medium){
+      float: right;      
+    }
+  }
+
+  &__toggle{
+    display: inline-block;
+    float: right;
+    padding: em(2) em(5);
+    margin-top: em(7);
+    font-family: $font-stack-heading;
+    font-size: $font-size-medium;
+    color: white;
+    border: 1px solid #737373;
+    border-radius: em(8,18);
+    background-color: transparent;
+
+    @include media($medium){
+      display: none;
+    }
+  }
+}
+
+
+// Main menu
+// ------------------------------------
+.main-menu{
+  clear: both;
+
+  &__item{
+    border-bottom: 1px solid lighten($color-navbar,5%);
+    text-align: center;
+
+    &:last-child{
+      border: none;
+    }
+
+    @include media($medium){
+      display: inline-block;
+      border: none;
+    }
+  }
+
+  &__link{
+    display: block;
+    font-family: $font-stack-heading;
+    font-size: $font-size-medium;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: em(24,18) 0;
+    color: white;
+
+    &:hover{
+      color: $color-action;
+      box-shadow: 0 em(4,18) 0 #bd5800;
+    }
+
+    @include media($medium){
+      padding: em(10,18) em(24,18);
+    }
+  }
+
+  &__link--highlight{
+    margin: em(12,18) 25%;
+    border: 2px solid white;
+    border-radius: em(8,18);
+
+    &:hover{
+      box-shadow: none;
+    }
+
+    @include media($medium){
+      padding: em(2,18) em(12,18);
+      margin: 0;
+    }
+  }
+
+  &.is-hidden{
+    display: none;
+  }
+}
+
+

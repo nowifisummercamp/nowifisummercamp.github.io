@@ -8,35 +8,47 @@ div role="main"
   
   = partial "partials/header"
 
-  h2 Un cadre privilégié
-  p Situé sur la commune de Rimont, en Ariège, il faut s’éloigner un peu des routes et des villages pour trouver le camp. Suffisamment proche pour accéder aux activités hors camp et aux commerces mais suffisamment éloigné pour garantir calme et dépaysement.
+  .section
+    .wrapper.row
+      .section__content
+        h2.section__title Un cadre privilégié
+        p Situé sur la commune de Rimont, en Ariège, il faut s’éloigner un peu des routes et des villages pour trouver le camp. Suffisamment proche pour accéder aux activités hors camp et aux commerces mais suffisamment éloigné pour garantir calme et dépaysement.
 
-  p Toute la saison et en fonction des conditions météo, nous proposons des départs randonnées en montagne, à la journée ou en bivouac, des descentes de rivière en canoé ou de l’équitation avec les chevaux du camp.
+        p Toute la saison et en fonction des conditions météo, nous proposons des départs randonnées en montagne, à la journée ou en bivouac, des descentes de rivière en canoé ou de l’équitation avec les chevaux du camp.
 
-  p Nous essayons de tendre vers l’autonomie énergétique et alimentaire, les résidents sont encouragés à prendre part à la production d’énergie et à l’entretien de nos jardins en permaculture.
+        p Nous essayons de tendre vers l’autonomie énergétique et alimentaire, les résidents sont encouragés à prendre part à la production d’énergie et à l’entretien de nos jardins en permaculture.
+      
+      .section__img
+        = image_tag "/images/camp/tente-bivouac.jpg", srcset: "/images/pages/camp/tente-bivouac.jpg 1x, /images/pages/camp/tente-bivouac@2x.jpg 2x", alt: "Tente bivouac"
 
-  = image_tag "/images/camp/tente-bivouac.jpg"
+  .section
+    .wrapper.row
+      .section__content.section__content--reverse
+        h2.section__title Dedans ou dehors
+        p Nous vous proposons différents types d’hébergements, à vous de choisir en fonction de vos envies. Le terrain est vaste et vous trouverez certainement un endroit à l’ombre avec un joli panorama pour planter votre tente.
 
-  h2 Dedans ou dehors
-  p Nous vous proposons différents types d’hébergements, à vous de choisir en fonction de vos envies. Le terrain est vaste et vous trouverez certainement un endroit à l’ombre avec un joli panorama pour planter votre tente.
+        p Vous pouvez également profitez de nos dortoirs de 6 ou 8 personnes dans le bâtiment principal ou si vous avez besoin de plus d’intimité de nos roulottes ou de nos yourtes.
 
-  p Vous pouvez également profitez de nos dortoirs de 6 ou 8 personnes dans le bâtiment principal ou si vous avez besoin de plus d’intimité de nos roulottes ou de nos yourtes.
-
-  p Au cœur de camp, et proche du bâtiment principal se trouvent la plupart des ateliers auxquels vous pouvez participer. C’est aussi à cet endroit qu’ont lieu les repas en extérieur sous le grand préau ainsi que les veillées nocturnes quotidiennes autour du feu.
-
-  = image_tag "/images/camp/tente-yourte.jpg"
+        p Au cœur de camp, et proche du bâtiment principal se trouvent la plupart des ateliers auxquels vous pouvez participer. C’est aussi à cet endroit qu’ont lieu les repas en extérieur sous le grand préau ainsi que les veillées nocturnes quotidiennes autour du feu.
+      
+      .section__img
+        = image_tag "/images/camp/tente-yourte.jpg", srcset: "/images/pages/camp/tente-yourte.jpg 1x, /images/pages/camp/tente-yourte@2x.jpg 2x", alt: "Tente bivouac" 
 
   = partial "partials/gallery", locals: {gallery: data.galleries.camp}
 
-  h2 Comment venir ?
-  p Nous sommes situés dans le sud de le France, très proche de la frontière espagnole. Vous avez plusieurs possibilités pour venir nous rejoindre :
+  .section
+    .wrapper.row
+      .section__content
+        h2.section__title Comment venir ?
+        p Nous sommes situés dans le sud de le France, très proche de la frontière espagnole. Vous avez plusieurs possibilités pour venir nous rejoindre :
 
-  p Par la route : Nous sommes entre les autoroutes A66 et A64, le long de la D117. Vous pouvez nous rejoindre facilement depuis des villes comme Toulouse, Tarbes ou Perpignan.
+        p Par la route : Nous sommes entre les autoroutes A66 et A64, le long de la D117. Vous pouvez nous rejoindre facilement depuis des villes comme Toulouse, Tarbes ou Perpignan.
 
-  p En train : La gare la plus proche est celle de Varhile. Nous organisons des navettes le week-end pour aller chercher ou reconduire nos résidents.
+        p En train : La gare la plus proche est celle de Varhile. Nous organisons des navettes le week-end pour aller chercher ou reconduire nos résidents.
 
-  p En avion : Les aéroports les plus proches sont ceux de Toulouse ou de Perpignan.
+        p En avion : Les aéroports les plus proches sont ceux de Toulouse ou de Perpignan.
 
-  <iframe width="400" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://cartosm.eu/map?lon=1.2840194354718&lat=42.985386332963&zoom=14&width=400&height=350&mark=true&nav=true&pan=true&zb=inout&style=default&icon=down"></iframe>
+      .section__img
+        <iframe width="567" height="458" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://cartosm.eu/map?lon=1.2840194354718&lat=42.985386332963&zoom=14&width=567&height=434&mark=true&nav=true&pan=true&zb=inout&style=default&icon=down"></iframe>
 
   = partial "partials/call-to-action"

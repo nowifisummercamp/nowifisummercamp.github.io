@@ -8,7 +8,10 @@ html lang="fr"
     meta name="description" content="#{current_page.data.description}"
     meta name="robots" content="index,follow"
 
+    link href='http://fonts.googleapis.com/css?family=Bitter:400,700|Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'
+
     = stylesheet_link_tag 'application'
+    = yield_content :hero_image
 
   body class="#{page_classes}"
     
@@ -17,3 +20,5 @@ html lang="fr"
     == yield
 
     = partial "partials/footer"
+
+    = javascript_include_tag 'all'

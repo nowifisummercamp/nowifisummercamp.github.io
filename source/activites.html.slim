@@ -8,11 +8,13 @@ div role="main"
   
   = partial "partials/header"
 
-  ul
-    - data.activities.each do |activity|
-      li
-        h2 = activity.name
-        = image_tag "/images/activites/#{activity.picture}"
-        p = activity.description
+  .section
+    .wrapper
+      ul
+        - data.activities.each do |activity|
+          li.mod
+            h2.mod__title = activity.name
+            = image_tag "/images/activities/#{activity.picture}", srcset: "/images/activities/#{activity.picture} 1x, /images/activities/#{activity.picture2x} 2x", alt: "#{activity.name}", class: "mod__img mod__img--square"
+            p = activity.description
 
   = partial "partials/call-to-action"

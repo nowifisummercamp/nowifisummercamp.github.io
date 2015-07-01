@@ -1,0 +1,85 @@
+// ============================================================================
+// 
+// Harbour WordPress theme
+// Name : _colors.scss
+// Desc : Add shades to the main colors
+//
+// ============================================================================
+
+// @todo : avoid repetition
+
+// Global values
+$shade-dark   : 15%;
+$shade-darker : 30%;
+$shade-light  : 15%;
+$shade-lighter: 30%;
+
+
+// Typography colors
+$color-body-dark  : darken($color-body, $shade-dark);
+$color-body-darker: darken($color-body, $shade-darker);
+$color-body-light : lighten($color-body, $shade-light);
+$color-body-lighter: lighten($color-body, $shade-lighter);
+
+$color-heading-dark  : darken($color-heading, $shade-dark);
+$color-heading-darker: darken($color-heading, $shade-darker);
+$color-heading-light : lighten($color-heading, $shade-light);
+$color-heading-lighter: lighten($color-heading, $shade-lighter);
+
+$color-link-dark  : darken($color-link, $shade-dark);
+$color-link-darker: darken($color-link, $shade-darker);
+$color-link-light : lighten($color-link, $shade-light);
+$color-link-lighter: lighten($color-link, $shade-lighter);
+
+$color-navbar-link-dark  : darken($color-navbar-link, $shade-dark);
+$color-navbar-link-darker: darken($color-navbar-link, $shade-darker);
+$color-navbar-link-light : lighten($color-navbar-link, $shade-light);
+$color-navbar-link-lighter: lighten($color-navbar-link, $shade-lighter);
+
+
+// Brand colors
+
+// $color-primary-dark  : darken($color-primary, $shade-dark);
+// $color-primary-darker: darken($color-primary, $shade-darker);
+// $color-primary-light : lighten($color-primary, $shade-light);
+// $color-primary-lighter: lighten($color-primary, $shade-lighter);
+
+// $color-secondary-dark  : darken($color-secondary, $shade-dark);
+// $color-secondary-darker: darken($color-secondary, $shade-darker);
+// $color-secondary-light : lighten($color-secondary, $shade-light);
+// $color-secondary-lighter: lighten($color-secondary, $shade-lighter);
+
+// $color-action-dark  : darken($color-action, $shade-dark);
+// $color-action-darker: darken($color-action, $shade-darker);
+// $color-action-light : lighten($color-action, $shade-light);
+// $color-action-lighter: lighten($color-action, $shade-lighter);
+
+// $color-default-dark  : darken($color-default, $shade-dark);
+// $color-default-darker: darken($color-default, $shade-darker);
+// $color-default-light : lighten($color-default, $shade-light);
+// $color-default-lighter: lighten($color-default, $shade-lighter);
+
+$color-navbar-dark  : darken($color-navbar, $shade-dark);
+$color-navbar-darker: darken($color-navbar, $shade-darker);
+$color-navbar-light : lighten($color-navbar, $shade-light);
+$color-navbar-lighter: lighten($color-navbar, $shade-lighter);
+
+// $color-info-dark  : darken($color-info, $shade-dark);
+// $color-info-darker: darken($color-info, $shade-darker);
+// $color-info-light : lighten($color-info, $shade-light);
+// $color-info-lighter: lighten($color-info, $shade-lighter);
+
+// $color-success-dark  : darken($color-success, $shade-dark);
+// $color-success-darker: darken($color-success, $shade-darker);
+// $color-success-light : lighten($color-success, $shade-light);
+// $color-success-lighter: lighten($color-success, $shade-lighter);
+
+// $color-warning-dark  : darken($color-warning, $shade-dark);
+// $color-warning-darker: darken($color-warning, $shade-darker);
+// $color-warning-light : lighten($color-warning, $shade-light);
+// $color-warning-lighter: lighten($color-warning, $shade-lighter);
+
+// $color-danger-dark  : darken($color-danger, $shade-dark);
+// $color-danger-darker: darken($color-danger, $shade-darker);
+// $color-danger-light : lighten($color-danger, $shade-light);
+// $color-danger-lighter: lighten($color-danger, $shade-lighter);

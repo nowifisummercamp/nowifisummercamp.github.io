@@ -2,41 +2,45 @@
 title: "Réservez votre séjour"
 title_seo: "Réservation de séjour, No Wifi Summercamp"
 description: "Réserver votre séjour au No Wifi Summercamp"
-hero_image: randonneurs.jpg
+hero_image: tente-bivouac.jpg
 ---
 div role="main"
   
   = partial "partials/header"
 
-  p Pour réserver votre séjour, c’est très simple, remplissez le  formulaire ci dessous et nous vous enverrons rapidement une documentation avec les tarifs et les disponibilités.
+  .section
+    .wrapper
+      .section__content--large
+        .reservation__content
+          p Pour réserver votre séjour, c’est très simple, remplissez le  formulaire ci dessous et nous vous enverrons rapidement une documentation avec les tarifs et les disponibilités.
 
-  p Vous pouvez également nous joindre par téléphone au 02 86 54 96 30
+          p Vous pouvez également nous joindre par téléphone au <strong>02 86 54 96 30</strong>
 
-  = form_tag "https://getsimpleform.com/messages?form_api_token=6fa93c7c46ca47439a6a269d7c8a6dc6", method: "post" do
+        = form_tag "https://getsimpleform.com/messages?form_api_token=6fa93c7c46ca47439a6a269d7c8a6dc6", method: "post" do
 
-    input type="hidden" name="redirect_to" value="http://nowifisummercamp.github.io/merci.html"
+          input type="hidden" name="redirect_to" value="http://nowifisummercamp.github.io/merci.html"
 
-    - field_set_tag do
+          - field_set_tag do
 
-      p 
-        = label_tag :nom
-        = text_field_tag :nom, placeholder: "Dujardin"
+            p 
+              = label_tag :nom
+              = text_field_tag :nom, placeholder: "Dujardin"
 
-      p
-        = label_tag :prenom
-        = text_field_tag :prenom, placeholder: "Pierre"
+            p
+              = label_tag :prenom
+              = text_field_tag :prenom, placeholder: "Pierre"
 
-      p
-        = label_tag :email
-        = text_field_tag :email, placeholder: "pierredujardin@monemail.fr"
+            p
+              = label_tag :email
+              = text_field_tag :email, placeholder: "pierredujardin@monemail.fr"
 
-      p 
-        = label_tag :telephone
-        = telephone_field_tag :telephone, placeholder: "06 12 34 56 78"
+            p 
+              = label_tag :telephone
+              = telephone_field_tag :telephone, placeholder: "06 12 34 56 78"
 
-      p
-        = label_tag :message
-        = text_area_tag :message, placeholder: "Quelques lignes pour nous demander ce que vous voulez."
+            p
+              = label_tag :message
+              = text_area_tag :message, placeholder: "Quelques lignes pour nous demander ce que vous voulez."
 
-      p
-        = submit_tag "envoyer mon message"
+            p.btn__wrapper
+              = submit_tag "Envoyer mon message", class: "btn btn--fill"

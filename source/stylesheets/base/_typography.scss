@@ -1,0 +1,72 @@
+// ============================================================================
+// Name : _typography.scss
+// Desc : Typography, change variables in _settings.scss
+// ============================================================================
+
+body {
+  @include font-feature-settings("kern", "liga", "pnum");
+  -webkit-font-smoothing: antialiased;
+  font-family: $font-stack-sans;
+  background-color: #F5F5F5;
+  color: $color-body;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-stack-heading;
+  font-weight: $font-weight-bold;
+  color: $color-heading;
+  margin: 0; //remove unwanting default margin
+}
+
+h1{
+  font-size: em($font-size-xxlarge);
+}
+
+h2{
+  font-size: em($font-size-xxlarge);
+}
+
+h3{
+  font-size: em($font-size-xlarge); 
+}
+
+h4{
+  font-size: em($font-size-large);
+}
+
+p {
+  font-size: $font-size-body;
+  line-height: em($spacing-medium, $font-size-body);
+  margin: 0 0 em($spacing-medium, $font-size-body) 0;
+}
+
+ol,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $color-link;
+  text-decoration: none;
+  transition: color 0.1s linear;
+  cursor: pointer;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: darken($color-link, 15%);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}

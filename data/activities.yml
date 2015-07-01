@@ -1,59 +1,74 @@
-- name: randonnée
+- name: Randonnée
   picture: randonnee.jpg
+  picture2x: randonnee@2x.jpg
   description: "Partez à la découverte de nos montagnes, nos vallées, nos rivières et nos lacs."
 
-- name: équitation
-  picture: équitation.jpg
+- name: Équitation
+  picture: equitation.jpg
+  picture2x: equitation@2x.jpg
   description: "Apprenez à monter et partez en balade avec d’autres cavaliers."
 
-- name: canoé
-  picture: canoé.jpg
+- name: Canoé
+  picture: canoe.jpg
+  picture2x: canoe@2x.jpg
   description: "Au calme sur les lacs ou en rivière, profitez de nos canoés et kayaks "
 
-- name: rafting
+- name: Rafting
   picture: rafting.jpg
+  picture2x: rafting@2x.jpg
   description: "Embarquez avec les plus téméraires pour une descente de rivière sportive"
 
-- name: lutherie
+- name: Lutherie
   picture: lutherie.jpg
+  picture2x: lutherie@2x.jpg
   description: "Fabriquez vous même votre instrument à cordes et jouez lors des feux de camps "
 
-- name: construction
+- name: Construction
   picture: construction.jpg
+  picture2x: construction@2x.jpg
   description: "Apprenez les bases de la construction éco responsable et pratiquez."
 
-- name: poterie
+- name: Poterie
   picture: poterie.jpg
+  picture2x: poterie@2x.jpg
   description: "Fabriquez pots, vaisselle et récipients qui serviront à tous sur le camp"
 
-- name: peinture
+- name: Peinture
   picture: peinture.jpg
+  picture2x: peinture@2x.jpg
   description: "Donnez libre court à votre inspiration et votre créativité lors de cours collectif."
 
-- name: sculpture
+- name: Sculpture
   picture: sculpture.jpg
+  picture2x: sculpture@2x.jpg
   description: "A partir de bois, de craie ou d’argile, apprenez à sculpter des objets."
 
-- name: escalade
+- name: Escalade
   picture: escalade.jpg
+  picture2x: escalade@2x.jpg
   description: "Accompagné d’un moniteur, tentez de gravir les sommets."
 
-- name: "tir à l'arc"
+- name: "Tir à l'arc"
   picture: tir-a-l-arc.jpg
+  picture2x: tir-a-l-arc@2x.jpg
   description: "Saurez-vous viser juste à une bonne centaine de mètres. "
 
-- name: permaculture
+- name: Permaculture
   picture: permaculture.jpg
+  picture2x: permaculture@2x.jpg
   description: "Découvrez les bases de la permaculture, aidez nous sur le camp."
 
-- name: vélo custom
+- name: Vélo custom
   picture: velo-custom.jpg
+  picture2x: velo-custom@2x.jpg
   description: "Customisez les vélos que nous récupérons pour leur donner une nouvelle vie"
 
-- name: pêche
+- name: Pêche
   picture: peche.jpg
+  picture2x: peche@2x.jpg
   description: "Posez vos cannes au bord d’une rivère et attendez que ça morde."
 
-- name: baignade
+- name: Baignade
   picture: baignade.jpg
+  picture2x: baignade@2x.jpg
   description: "Profitez des lacs et nombreuses rivères pour vous rafraichir."

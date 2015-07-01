@@ -1,12 +1,18 @@
-header
-  / Set the title
-  - title = current_page.data.title if title.blank?
+/ Set the title
+- title = current_page.data.title if title.blank?
 
+/ Set the background image
+- content_for :hero_image do
+  - set_hero_image(current_page.data.hero_image)
+
+div.header
   / Check if it's the homepage
   - if current_page.url == '/'
-    = image_tag "/images/logo-home.png", alt: "No Wifi Summercamp, camp de vacances en plein air"
-    p = current_page.data.slogan_sup
-    p = current_page.data.slogan
-    h1 = title
+      .wrapper
+      = image_tag "/images/logo/logo-home.png", srcset: "/images/logo/logo-home.png 1x, /images/logo/logo-home@2x.png 2x", class:"header__logo", alt: "No Wifi Summercamp, camp de vacances en plein air"
+      p.header__slogan = current_page.data.slogan_sup
+      p.header__title = current_page.data.slogan
+      h1.header__infos = title
   - else
-    h1 = title
+    .wrapper
+      h1.header__title = title

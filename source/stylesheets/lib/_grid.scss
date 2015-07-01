@@ -1,0 +1,20 @@
+// ============================================================================
+// 
+// Harbour WordPress theme
+// Name : _grid.scss
+// Desc : Override Neat default settings
+//
+// ============================================================================
+
+$column: modular-scale(3, 1, $golden); // Column width
+$gutter: modular-scale(1, 1, $golden); // Gutter between each two columns
+$grid-columns: $number-of-columns; // Total number of columns in the grid
+$max-width: $grid-max-width; // Max-width of the outer container
+$border-box-sizing: true; // Makes all elements have a border-box layout
+$default-feature: min-width; // Default @media feature for the breakpoint() mixin
+$default-layout-direction: LTR;
+
+$visual-grid: false; // Display the base grid
+$visual-grid-color: #aaaaFF;
+$visual-grid-index: front; // Show grid behind content (back) or overlay it over the content (front)
+$visual-grid-opacity: 0.5;
