@@ -50,14 +50,14 @@ div role="main"
           li.testimonial
             = image_tag "/images/testimonials/#{testimonial.picture}", srcset: "/images/testimonials/#{testimonial.picture} 1x, /images/testimonials/#{testimonial.picture2x} 2x", alt: "Témoignages de clients",  class: "testimonial__img"
             
-            p.testimonial__content
+            .testimonial__content
+      
+              span.testimonial__name  = testimonial.name
               
-              span.testimonial__name = testimonial.name
-              ' 
               span.testimonial__infos = testimonial.age
-              ' 
+               
               span.testimonial__infos = testimonial.town
             
-            p.testimonial__message = testimonial.message
+              p.testimonial__message  = testimonial.message
 
   = partial "partials/call-to-action"

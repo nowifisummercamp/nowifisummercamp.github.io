@@ -21,6 +21,12 @@
     }
   }
 
+  &__img{
+    display: block;
+    margin-top: 1.5em;
+    text-align: center;
+  }
+
   &__content--large{
     @include media($medium){   
       @include span-columns(8);
@@ -38,17 +44,15 @@
   &__content--reverse{
     float: right;
     margin-right: 0;
-    margin-left: 2.35765%;
+    margin-left:  2.35765%;
   }
 
   &__title{
-    @extend h2;
+    @extend %h-xxlarge;
     text-align: center;
 
     &:after{
       @extend %ornement;
     }
   }
-
 }
-

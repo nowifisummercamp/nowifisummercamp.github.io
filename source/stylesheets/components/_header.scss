@@ -21,7 +21,7 @@
   }
 
   &__title{
-    @extend h1;
+    @extend %h-giga;
     color: white;
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
 
@@ -31,15 +31,15 @@
   }
 
   &__slogan{
-    @extend h4;
+    @extend h3;
     color: white;
   }
 
   &__infos{
     margin-top: em(48,18);
-    font-size: $font-size-body;
+    color:       #BBAC8B;
+    font-size:   $font-size-body;
     font-weight: 400;
-    color: #BBAC8B;
     text-shadow: 2px 2px 10px black;
   }
 }

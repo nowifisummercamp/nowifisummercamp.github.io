@@ -1,27 +1,33 @@
 // ============================================================================
-// Name : _typography.scss
-// Desc : Typography, change variables in _settings.scss
+// Typography
 // ============================================================================
 
 body {
+  color: $color-body;
+  background-color: #F5F5F5;
+  
+  font-family: $font-stack-sans;
+  line-height: 1.5;
+
   @include font-feature-settings("kern", "liga", "pnum");
   -webkit-font-smoothing: antialiased;
-  font-family: $font-stack-sans;
-  background-color: #F5F5F5;
-  color: $color-body;
-  line-height: 1.5;
 }
 
+
+// Generic styles for heading
+// ------------------------------------
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+%h-giga,
+%h-big {
   font-family: $font-stack-heading;
   font-weight: $font-weight-bold;
-  color: $color-heading;
-  margin: 0; //remove unwanting default margin
+  color:  $color-heading;
+  margin: 0;
 }
 
 h1{
@@ -29,40 +35,60 @@ h1{
 }
 
 h2{
-  font-size: em($font-size-xxlarge);
+  padding:   em(35,$font-size-xlarge) 0 em(15,$font-size-xlarge) 0;
+  font-size: em($font-size-xlarge);
+  line-height: 1.25em;
 }
 
 h3{
-  font-size: em($font-size-xlarge); 
-}
-
-h4{
+  padding:   em(24,$font-size-large) 0 em(13,$font-size-large) 0;
   font-size: em($font-size-large);
 }
 
+h4{
+  font-size: em($font-size-medium);
+}
+
+// Special styles for heading
+// ------------------------------------
+%h-xxlarge{
+  padding: 0;
+  font-size:   em($font-size-xxlarge);
+  line-height: 1.5;
+}
+
+%h-xlarge{
+  padding: 0 0 em(4,$font-size-xlarge) 0;
+  font-size:   em($font-size-xlarge);
+  line-height: 1.25em;
+}
+
+
+// General styles
+// ------------------------------------
 p {
-  font-size: $font-size-body;
-  line-height: em($spacing-medium, $font-size-body);
-  margin: 0 0 em($spacing-medium, $font-size-body) 0;
+  margin:  0 0 1.3333333333333333em 0; // em() fail
+  font-size: em($font-size-body);
+  line-height: 1.3333333333333333em;
 }
 
 ol,
 ul {
-  list-style-type: none;
-  margin: 0;
+  margin:  0;
   padding: 0;
+  list-style-type: none;
 }
 
 a {
   color: $color-link;
   text-decoration: none;
-  transition: color 0.1s linear;
   cursor: pointer;
+  transition: color 0.1s linear;
 
   &:active,
   &:focus,
   &:hover {
-    color: darken($color-link, 15%);
+    color: darken($color-link, 5%);
   }
 
   &:active,

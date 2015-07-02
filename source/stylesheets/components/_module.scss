@@ -5,9 +5,9 @@
 // Styles for the generic module ( team members / activities)
 // ------------------------------------
 .mod{
-  text-align: center;
   margin-bottom: 3em;
-
+  text-align: center;
+  
   @include media($small-to-medium){
     @include span-columns(6);
     @include omega(2n);
@@ -19,7 +19,7 @@
   }
   
   &__title{
-    @extend h3;
+    @extend %h-xlarge;
     text-align: center;
 
     &:after{
@@ -28,7 +28,7 @@
   }
 
   &__img{
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     border: em(10) solid #fcfcfc;
     box-shadow: 0 em(3) em(7) rgb(232, 232, 232);
     transition: all .2s ease-in-out;

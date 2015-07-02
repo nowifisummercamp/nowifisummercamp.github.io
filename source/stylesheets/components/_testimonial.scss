@@ -5,7 +5,7 @@
 // Styles for testimonials
 // ------------------------------------
 .testimonial{
-  padding: 2.5em 0 1.5em 0;
+  padding: 1.5em 0 1.5em 0;
   text-align: center;
   border-bottom: 1px solid #E5E5E5;
 
@@ -17,9 +17,9 @@
 
   &__img{
     display: inline-block;
+    margin-bottom: 1.5em;
     border-radius: 50%;
     border: 6px solid white;
-    margin-bottom: 1.5em;
     box-shadow: 0 em(3) em(7) rgb(232, 232, 232);
 
     @include media($medium){
@@ -28,14 +28,10 @@
     }
   }
 
-  &__content{
-    font-size: $font-size-small;
-    margin-bottom: 0
-  }
-
   &__name{
-    @extend h4;
+    @extend h3;
     display: block;
+    padding: 0;
 
     @include media($medium){
       display: inline-block;
@@ -44,12 +40,18 @@
 
   &__infos{
     display: inline-block;
-    font-size: $font-size-tiny;
+    padding: 0 .5em;
     color: $color-grey-neutral;
-    padding: .75em .25em;
+    font-size: em($font-size-tiny);
   }
 
   &__message{
-    font-size: $font-size-small;
+    margin: 1em 0 0;
+    font-size: em($font-size-small);
+    line-height: 1.5em;
+  
+    @include media($medium){
+      margin-top: 0;
+    }
   }
 }

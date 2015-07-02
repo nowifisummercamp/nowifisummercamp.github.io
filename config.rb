@@ -59,6 +59,12 @@ helpers do
     result.first
   end
 
+  def retina_image(file_name)
+    if file_name
+      file_name.sub(/\.(jpg|png|gif)/, "@2x.\\1")
+    end
+  end
+
   def set_hero_image(image)
     styles = %{<style>.header{background-image: url('/images/backgrounds/small/#{image}');}
     @media screen and (min-width: 25em){.header{background-image: url('/images/backgrounds/medium/#{image}');}}

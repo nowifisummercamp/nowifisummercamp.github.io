@@ -5,20 +5,20 @@
 // Generic styles for the footer
 // ------------------------------------
 .footer{
-  background-color: $color-navbar;
   width: 100%;
+  background-color: $color-navbar;
   text-align: center;
   clear: both;
 
   &__logo{
-    text-align: center;
     padding: 1.5em;
+    text-align: center;
     opacity: .8;
   }
 
   &__content{
+    color:     $color-grey-tint;
     font-size: $font-size-small;
-    color: $color-grey-tint;
   }
   &__content__item{
     margin-bottom: 1.5em;
@@ -41,8 +41,8 @@
   &__menu__link{
     display: block;
     padding: em(12,14) 0;
+    color:    $color-grey-dark;
     font-size: $font-size-tiny;
-    color: $color-grey-dark;
 
     &:hover{
       color: white;
@@ -51,9 +51,7 @@
   
   &__copyright{
     margin-top: em(24,14);
-    font-size: $font-size-tiny;
     color: $color-grey-darker;
+    font-size: $font-size-tiny;
   }
-
 }
-

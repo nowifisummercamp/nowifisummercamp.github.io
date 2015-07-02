@@ -1,37 +1,45 @@
 = wrap_layout :layout do
   
-  div role="main"
-  
-  = partial "partials/header"
+  .div role="main"
 
-  aside
-    - author = find_author(current_article.data.author)
-    = image_tag "/images/equipe/#{author.picture}"
-    h3 = author.name
-    p 
-      ' Publié le : 
-      = I18n.l current_page.date, format: '%e %b %Y'
-    p
-      ' Dans :
-      = current_article.data.category
+    = partial "partials/header"
+    
+    .section
+      .wrapper
+        
+        aside.metas__box
+          - author = find_author(current_article.data.author)
+          = image_tag "/images/members/thumbs/#{author.picture}", class: "metas__author__img"
+          h3.metas__author = author.name
+          p.metas__label.metas__label--small
+            ' Publié le : 
+            span.metas__inline = I18n.l current_page.date, format: '%e %b %Y'
+          p.metas__label.metas__label--small
+            ' Dans :
+            span.metas__inline = current_article.data.category
+        
+        article.blog__article
+          p.blog__chapo = current_article.data.excerpt
 
-  article
-    = current_article.data.excerpt
+          == yield
 
-    == yield
+          nav.blog__nav role= "navigation"
+            ul
+              li.blog__nav__item.blog__nav--prev
+                - prev_article = current_article.previous_article
+                - if prev_article
+                  span 
+                    '  &#9664;
+                  = link_to prev_article.title, prev_article.url, 
+                    rel: 'prev', title: "Article précédent: #{prev_article.title}"
+              
+              li.blog__nav__item.blog__nav--next
+                - next_article = current_article.next_article
+                - if next_article
+                  = link_to next_article.title, next_article.url, 
+                    rel: 'next', title: "Article suivant: #{next_article.title}"
+                  span
+                    '  &#9654;
 
-  nav role= "navigation"
-    ul
-      li
-        - prev_article = current_article.previous_article
-        - if prev_article
-            = link_to prev_article.title, prev_article.url, 
-              rel: 'prev', title: "Previous article: #{prev_article.title}"
-      li
-        - next_article = current_article.next_article
-        - if next_article
-            = link_to next_article.title, next_article.url, 
-              rel: 'next', title: "Next article: #{next_article.title}"
-
-  / Add Disqus comments
-  = disqus
+          / Add Disqus comments
+          = disqus

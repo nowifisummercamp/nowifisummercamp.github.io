@@ -3,10 +3,10 @@
 //  ===========================================================================
 
 fieldset {
+  margin:  0 0 $spacing-small;
+  padding: $spacing-medium;
   background-color: white;
   border: 1px solid $color-grey-neutral;
-  margin: 0 0 $spacing-small;
-  padding: $spacing-medium;
 }
 
 input,
@@ -16,13 +16,13 @@ select {
 }
 
 label {
-  display: block;
-  font-family: $font-stack-heading;
-  color: $color-primary; 
-  margin-bottom: $spacing-small / 2;
-  vertical-align: top;
   margin-top: em(10,18);
-
+  margin-bottom: $spacing-small / 2;
+  display: block;
+  color: $color-primary; 
+  font-family: $font-stack-heading;
+  vertical-align: top;
+  
   @include media($medium){
     display: inline-block;
     width: 20%;
@@ -34,14 +34,14 @@ label {
 }
 
 #{$all-text-inputs}{
+  box-sizing: border-box;
+  width: 100%;
+  padding: $spacing-medium / 3;
   background-color: white;
+  font-family: $font-stack-sans;
   border: 1px solid lighten($color-grey-neutral, 50%);
   border-radius: $base-border-radius;
-  box-sizing: border-box;
-  font-family: $font-stack-sans;
-  padding: $spacing-medium / 3;
   transition: border-color;
-  width: 100%;
 
   @include media($medium){
     display: inline-block;
