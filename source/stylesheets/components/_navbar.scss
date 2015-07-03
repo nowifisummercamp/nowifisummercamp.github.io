@@ -8,6 +8,7 @@
   position: fixed;
   width: 100%;
   background-color: $color-navbar;
+  z-index: 99;
 
   &__logo{
     float: left;
