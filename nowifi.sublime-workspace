@@ -542,6 +542,15 @@
 				"buffer_size": 3732,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "source/robots.txt",
+			"settings":
+			{
+				"buffer_size": 66,
+				"line_ending": "Unix",
+				"name": "User-Agent: *"
+			}
 		}
 	],
 	"build_system": "",
@@ -624,6 +633,8 @@
 	},
 	"file_history":
 	[
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/merci.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/404.html.slim",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/data/activities.yml",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/data/testimonials.yml",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/data/members.yml",
@@ -678,7 +689,6 @@
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/pages/_site.scss",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/pages/_reservation.scss",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/reservation.html.slim",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/merci.html.slim",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/parts/_testimonial.scss",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_navbar.html.slim",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/parts/_call-to-action.scss",
@@ -750,8 +760,7 @@
 		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/layouts/layout.slim",
 		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/dupashop.html.slim",
 		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/mentions-legales.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/elise-formaglio.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/creative-graphics.html.slim"
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/elise-formaglio.html.slim"
 	],
 	"find":
 	{
@@ -854,7 +863,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1210,6 +1219,124 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 87.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/robots.txt",
+					"settings":
+					{
+						"buffer_size": 66,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "User-Agent: *",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
