@@ -14,7 +14,7 @@
   name: Vincent
   picture: vincent.jpg
   picture2x: vincent@2x.jpg
-  description: "Notre expert en logistique, il sait trouver n’importe quoi, n’importe ou et trouve toujours le moyen de transporter le matériel. Même si il faut inventer de nouveaux modes de transport."
+  description: "Notre expert en logistique, il sait trouver n’importe quoi, n’importe où et trouve toujours le moyen de transporter le matériel. Même si il faut inventer de nouveaux modes de transport."
 
 - amélie:
   name: Amélie
@@ -26,7 +26,7 @@
   name: Youri
   picture: youri.jpg
   picture2x: youri@2x.jpg
-  description: "Le plus sportif de toute l’équipe ! Un athlète de haut niveau qui vous enseignera une multitude de sport en toute sécurité. On dit également qu’ à la nuit tombée, il se tranforme en danseur fou."
+  description: "Le plus sportif de toute l’équipe ! Un athlète de haut niveau qui vous enseignera une multitude de sports en toute sécurité. On dit également qu’ à la nuit tombée, il se tranforme en danseur fou."
 
 - micky:
   name: Micky

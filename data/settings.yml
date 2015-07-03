@@ -1,7 +1,7 @@
 site:
   title: No Wifi Summercamp, camp de vacances dans les Pyrénées Ariégeoises
   description: "Nous sommes un camp de vacances en pleine nature qui privilègie un retour aux sources en éloignant les nouvelles technologies le temps d'un séjour."
-  url: "http://nowifisummercamp.github.io"
+  url: "http://www.nowifisummercamp.fr"
 
 author:
   name: No Wifi Summercamp
@@ -19,4 +19,4 @@ copyright:
     url: "http://samuelbourdon.com"
 
 google_analytics:
-  tracking_code: 'Your-tracking-code'
+  tracking_code: 'UA-35603115-1'

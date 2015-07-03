@@ -3,10 +3,14 @@
 source 'https://rubygems.org'
 
 gem 'middleman',            '~>3.3.12'
-gem "middleman-blog",       '~> 3.6.0.beta.2'
+gem 'middleman-blog',       '~> 3.6.0.beta.2'
 gem 'middleman-livereload', '~> 3.1.0'
 gem 'middleman-deploy',     '~> 1.0'
-gem "middleman-disqus"
+gem 'middleman-disqus'
+gem 'middleman-autoprefixer'
+gem 'middleman-google-analytics'
+gem 'middleman-protect-emails'
+gem 'middleman-minify-html'
 
 gem 'slim', '~> 3.0.2'
 gem 'bourbon'

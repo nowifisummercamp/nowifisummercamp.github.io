@@ -36,7 +36,7 @@
 - name: Peinture
   picture: peinture.jpg
   picture2x: peinture@2x.jpg
-  description: "Donnez libre court à votre inspiration et votre créativité lors de cours collectif."
+  description: "Donnez libre court à votre inspiration et votre créativité lors de cours collectifs."
 
 - name: Sculpture
   picture: sculpture.jpg

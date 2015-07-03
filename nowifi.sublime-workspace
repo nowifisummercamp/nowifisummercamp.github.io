@@ -4,8 +4,116 @@
 		"selected_items":
 		[
 			[
+				"tran",
+				"transition"
+			],
+			[
+				"trn",
+				"transform"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"list",
+				"list	list-style-type"
+			],
+			[
+				"font",
+				"font-size-large"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font-s",
+				"font-stack-heading"
+			],
+			[
 				"jpg",
-				"mains.jpg"
+				"people.jpg"
+			],
+			[
+				"file",
+				"file_name〔argument〕"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"colo",
+				"color-secondary"
+			],
+			[
+				"color",
+				"color-primary"
+			],
+			[
+				"text-align",
+				"text-align-last"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"testimonal",
+				"testimonials"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"or",
+				"ornement"
+			],
+			[
+				"footer",
+				"footer__menu__item"
+			],
+			[
+				"brea",
+				"breakpoint〔variable〕"
+			],
+			[
+				"ine",
+				"inline-block"
+			],
+			[
+				"nav",
+				"navbar-height"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"line",
+				"line-height"
 			],
 			[
 				"gi",
@@ -18,10 +126,6 @@
 			[
 				"paddin",
 				"padding"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"current",
@@ -68,24 +172,12 @@
 				"color-navbar"
 			],
 			[
-				"border",
-				"border-bottom"
-			],
-			[
 				"in",
 				"inline-block"
 			],
 			[
 				"me",
 				"media"
-			],
-			[
-				"padding",
-				"padding-bottom"
-			],
-			[
-				"color",
-				"color-navbar"
 			],
 			[
 				"spac",
@@ -96,20 +188,8 @@
 				"spacing-small"
 			],
 			[
-				"bo",
-				"body_class"
-			],
-			[
-				"ine",
-				"inline-block"
-			],
-			[
 				"re",
 				"relative"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"sm",
@@ -164,16 +244,8 @@
 				"the_content"
 			],
 			[
-				"font",
-				"font-weight"
-			],
-			[
 				"max",
 				"max-width:   (property)"
-			],
-			[
-				"ba",
-				"background-size"
 			],
 			[
 				"base",
@@ -184,16 +256,8 @@
 				"left"
 			],
 			[
-				"list",
-				"list:s	list-style-type:square"
-			],
-			[
 				"backgr",
 				"background-color:   (property)"
-			],
-			[
-				"marg",
-				"margin-bottom"
 			],
 			[
 				"backgrou",
@@ -206,14 +270,6 @@
 			[
 				"the",
 				"the_title"
-			],
-			[
-				"tex",
-				"text-transform:   (property)"
-			],
-			[
-				"bac",
-				"background:   (property)"
 			],
 			[
 				"bacd",
@@ -458,96 +514,32 @@
 			[
 				"th",
 				"the_title"
-			],
-			[
-				"hea",
-				"header-menu-bloc"
-			],
-			[
-				"slider",
-				"slider-container"
-			],
-			[
-				"ccc",
-				"c4c4c4"
-			],
-			[
-				"dernie",
-				"dernier-article-thumb"
-			],
-			[
-				"dernier",
-				"dernier-article-content"
-			],
-			[
-				"pos",
-				"post-infobox"
-			],
-			[
-				"selec",
-				"selection-race-related-posts"
-			],
-			[
-				"sele",
-				"selection-race-ad"
-			],
-			[
-				"margn",
-				"margin-bottom"
-			],
-			[
-				"focu",
-				"focus-post"
-			],
-			[
-				"focus-p",
-				"focus-post-desc"
-			],
-			[
-				"ta",
-				"ta-c	text-align: center;"
-			],
-			[
-				"random",
-				"random-articles"
-			],
-			[
-				"sear",
-				"searchbox-home"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "source/blog.html.slim",
-			"settings":
-			{
-				"buffer_size": 464,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/activites.html.slim",
-			"settings":
-			{
-				"buffer_size": 582,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/partials/_footer.html.slim",
-			"settings":
-			{
-				"buffer_size": 1086,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "source/reservation.html.slim",
 			"settings":
 			{
-				"buffer_size": 1321,
+				"buffer_size": 1593,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/partials/_call-to-action.html.slim",
+			"settings":
+			{
+				"buffer_size": 223,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/index.html.slim",
+			"settings":
+			{
+				"buffer_size": 3732,
 				"line_ending": "Unix"
 			}
 		}
@@ -632,23 +624,75 @@
 	},
 	"file_history":
 	[
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/layouts/blog.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/data/activities.yml",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/data/testimonials.yml",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/data/members.yml",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/camp.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/CNAME",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/data/settings.yml",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_footer.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/layouts/layout.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_favicon.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/application.css.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/components/_gallery.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/lib/_form.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/lib/_buttons.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/base/_typography.scss",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/Gemfile",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_articles-list.html.slim",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_pagination.html.slim",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/config.rb",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-23-la-vie-au-camp-semaine-du-456-juin.html.markdown",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-la-vie-au-camp-semaine-du-8-juin.html.markdown",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-tutorial-fabriquer-un-attrape-reve.html.markdown",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-portrait-morgan-le-raleur.html.markdown",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-portrait-de-melanie-blagueuse-carambar.html.markdown",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-les-photos-du-bivouac-en-montagne.html.markdown",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-les-photos-de-la-sortie-rafting.html.markdown",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-le-co-voiturage-pour-venir-au-camp.html.markdown",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-la-vie-au-camp-semaine-du-38-juin.html.markdown",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/lib/_grid.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/lib/_helpers.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/components/_navbar.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/components/_testimonial.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/components/_section.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/components/_module.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/components/_header.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/components/_footer.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/components/_blog.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/components/_call-to-action.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/_settings.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_header.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/layouts/blog.slim",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-la-vie-au-camp-semaine-du-29-juin.html.markdown",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-la-vie-au-camp-semaine-du-22-juin.html.markdown",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-la-vie-au-camp-semaine-du-15-juin.html.markdown",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-les-photos-du-bivouac-en-montagne.html.markdown",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-la-vie-au-camp-semaine-du-22-juin.html.markdown",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-la-vie-au-camp-semaine-du-8-juin.html.markdown",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-le-co-voiturage-pour-venir-au-camp.html.markdown",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-les-photos-de-la-sortie-rafting.html.markdown",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-portrait-de-melanie-blagueuse-carambar.html.markdown",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-portrait-morgan-le-raleur.html.markdown",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-tutorial-fabriquer-un-attrape-reve.html.markdown",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_call-to-action.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/index.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/category.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_articles-list.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/equipe.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/activites.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/parts/_module.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/parts/_header.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/parts/_navbar.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/parts/_section.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/parts/_footer.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/pages/_site.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/pages/_reservation.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/reservation.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/merci.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/parts/_testimonial.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_navbar.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/parts/_call-to-action.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/base/_normalize.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/build/stylesheets/normalize.css",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/parts/_gallery.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/javascripts/navbar.js",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_gallery.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/parts/_recipes.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/dashboard.scss",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/stylesheets/all.css",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_pagination.html.slim",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-23-la-vie-au-camp-semaine-du-456-juin.html.markdown",
+		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-la-vie-au-camp-semaine-du-38-juin.html.markdown",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/new-article.erb",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-21-encore-un-dis-donc.html.markdown",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-20-lonze.html.markdown",
@@ -662,30 +706,13 @@
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2014-06-16-le-covoiturage-pour-venir-au-camp.html.markdown",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2014-06-23-tutoriel-fabriquer-un-attrape-reve.html.markdown",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2014-06-21-la-vie-au-camp-semaine-du-15-juin.html.markdown",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_gallery.html.slim",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/layouts/layout.slim",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/new-article.markdown",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog.html.slim",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_header.html.slim",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-20-test2.html.markdown",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/blog/2015-06-19-test.html.markdown",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/category.html.slim",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/index.html.slim",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/data/members.yml",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/equipe.html.slim",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_navbar.html.slim",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/2015-06-19-test-article.html.markdown",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/.gitignore",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/activites.html.slim",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/reservation.html.slim",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/data/activities.yml",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/data/testimonials.yml",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/camp.html.slim",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/data/team.yml",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_footer.html.slim",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/data/settings.yml",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/data/galleries.yml",
-		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/partials/_call-to-action.html.slim",
 		"/Users/samuelbourdon/Work/projets/nowifisummercamp.github.io/source/index.html.erb",
 		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/application.scss",
 		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/syntax.css.erb",
@@ -724,42 +751,7 @@
 		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/dupashop.html.slim",
 		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/mentions-legales.html.slim",
 		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/elise-formaglio.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/creative-graphics.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/mesha.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/allo-pizza-vimy.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/vendors/_contactform.scss",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/layout/_footer.scss",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/views/global/_footer.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/blog/brackets-un-passage-en-douceur.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/blog/butinage-de-lien-en-lien.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/tag.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/tag-portfolio.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/index.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/blog.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/views/pages/excerpt.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/vendors/_wordpress.scss",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/pages/_portfolio.scss",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/views/global/_navigation.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/blog/premier-article.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/about.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/comment-creer-un-site-internet.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/javascripts/all.js",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio.html.slim",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/layout/_navigation.scss",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/javascripts/wow.js",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/javascripts/rs.js",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/components/_iconfonts.scss",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/stylesheets/layout/_main.scss",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/views/index.old",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/data/settings.yml",
-		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/2012-01-01-example-article.html.markdown",
-		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/template-sidebar-two.php",
-		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/template-sidebar-right.php",
-		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sass/pages/_site.scss",
-		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sidebar-right.php",
-		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sidebar-left.php",
-		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/functions.php",
-		"/Users/samuelbourdon/Work/projets/themes/wp-content/themes/harbour/sass/parts/_footer-default.scss"
+		"/Users/samuelbourdon/Work/projets/samuelbourdon/source/portfolio/clients/creative-graphics.html.slim"
 	],
 	"find":
 	{
@@ -778,6 +770,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"srcset",
 			"pageable: true\nper_page: 10",
 			"gallery_id",
 			"c'est",
@@ -839,6 +832,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"quitation",
 			"challenge\n.",
 			"\n.",
 			"\nli ",
@@ -860,23 +854,23 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "source/blog.html.slim",
+					"file": "source/reservation.html.slim",
 					"settings":
 					{
-						"buffer_size": 464,
+						"buffer_size": 1593,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								464
+								387,
+								387
 							]
 						],
 						"settings":
@@ -887,7 +881,6 @@
 								"README",
 								"FIXME"
 							],
-							"auto_complete": false,
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"csslint_options":
 							{
@@ -985,18 +978,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "source/activites.html.slim",
+					"file": "source/partials/_call-to-action.html.slim",
 					"settings":
 					{
-						"buffer_size": 582,
+						"buffer_size": 223,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								582
+								161,
+								161
 							]
 						],
 						"settings":
@@ -1093,9 +1086,7 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1105,18 +1096,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "source/partials/_footer.html.slim",
+					"file": "source/index.html.slim",
 					"settings":
 					{
-						"buffer_size": 1086,
+						"buffer_size": 3732,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								1086
+								2706,
+								2706
 							]
 						],
 						"settings":
@@ -1127,7 +1118,6 @@
 								"README",
 								"FIXME"
 							],
-							"auto_complete": false,
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"csslint_options":
 							{
@@ -1191,6 +1181,7 @@
 							[
 							],
 							"pyflakes_ignore_import_*": true,
+							"spell_check": true,
 							"sublimelinter": "load-save",
 							"sublimelinter_delay": 2.0,
 							"sublimelinter_disable":
@@ -1218,127 +1209,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "source/reservation.html.slim",
-					"settings":
-					{
-						"buffer_size": 1321,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								828,
-								828
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"devel": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": "load-save",
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 87.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1404,6 +1275,134 @@
 		"selected_items":
 		[
 			[
+				"call",
+				"source/partials/_call-to-action.html.slim"
+			],
+			[
+				"blo",
+				"source/layouts/blog.slim"
+			],
+			[
+				"navb",
+				"source/stylesheets/components/_navbar.scss"
+			],
+			[
+				"modul",
+				"source/stylesheets/components/_module.scss"
+			],
+			[
+				"he",
+				"source/stylesheets/components/_header.scss"
+			],
+			[
+				"l",
+				"source/layouts/layout.slim"
+			],
+			[
+				"section",
+				"source/stylesheets/components/_section.scss"
+			],
+			[
+				"sett",
+				"source/stylesheets/_settings.scss"
+			],
+			[
+				"bo",
+				"source/blog.html.slim"
+			],
+			[
+				"gall",
+				"source/stylesheets/components/_gallery.scss"
+			],
+			[
+				"se",
+				"source/stylesheets/_settings.scss"
+			],
+			[
+				"mo",
+				"source/stylesheets/components/_module.scss"
+			],
+			[
+				"help",
+				"source/stylesheets/lib/_helpers.scss"
+			],
+			[
+				"lay",
+				"source/layouts/layout.slim"
+			],
+			[
+				"blog",
+				"source/blog.html.slim"
+			],
+			[
+				"la",
+				"source/layouts/layout.slim"
+			],
+			[
+				"h",
+				"source/partials/_header.html.slim"
+			],
+			[
+				"hea",
+				"source/stylesheets/parts/_header.scss"
+			],
+			[
+				"butt",
+				"source/stylesheets/lib/_buttons.scss"
+			],
+			[
+				"re",
+				"source/reservation.html.slim"
+			],
+			[
+				"for",
+				"source/stylesheets/lib/_form.scss"
+			],
+			[
+				"fooer",
+				"source/partials/_footer.html.slim"
+			],
+			[
+				"setti",
+				"source/stylesheets/_settings.scss"
+			],
+			[
+				"index",
+				"source/index.html.slim"
+			],
+			[
+				"no",
+				"source/stylesheets/base/_normalize.scss"
+			],
+			[
+				"nor",
+				"build/stylesheets/normalize.css"
+			],
+			[
+				"nav",
+				"source/stylesheets/parts/_navbar.scss"
+			],
+			[
+				"tes",
+				"source/stylesheets/parts/_testimonial.scss"
+			],
+			[
+				"a",
+				"data/activities.yml"
+			],
+			[
+				"mem",
+				"data/members.yml"
+			],
+			[
+				"te",
+				"data/testimonials.yml"
+			],
+			[
+				"mod",
+				"source/stylesheets/parts/_module.scss"
+			],
+			[
 				"g",
 				"Gemfile"
 			],
@@ -1442,6 +1441,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 512.0,
+	"side_bar_width": 523.0,
 	"status_bar_visible": true
 }
