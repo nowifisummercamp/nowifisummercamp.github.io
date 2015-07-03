@@ -159,4 +159,7 @@ configure :build do
   # Use relative URLs
   activate :relative_assets
 
+  # Site map
+  activate :sitemap, hostname: data.settings.site.url
+
 end
