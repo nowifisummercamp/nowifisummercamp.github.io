@@ -110,6 +110,8 @@ GEM
       middleman-core (>= 3.2)
     middleman-protect-emails (0.2.0)
       middleman-core (~> 3.2)
+    middleman-sitemap (0.0.13)
+      middleman-core (>= 3.2.2)
     middleman-sprockets (3.4.2)
       middleman-core (>= 3.3)
       sprockets (~> 2.12.1)
@@ -180,6 +182,7 @@ DEPENDENCIES
   middleman-livereload (~> 3.1.0)
   middleman-minify-html
   middleman-protect-emails
+  middleman-sitemap
   neat
   slim (~> 3.0.2)
   tzinfo-data
